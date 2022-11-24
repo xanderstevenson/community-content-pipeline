@@ -1,4 +1,4 @@
-name: Spellcheck Action
+name: Spellcheck Action on community.yml
 on: push
 
 jobs:
