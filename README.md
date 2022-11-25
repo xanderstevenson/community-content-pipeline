@@ -26,6 +26,9 @@ Step 4
 When finished, copy the document here and commit it, checking 'Create a new branch for this commit and start a pull request.'
 
 
+<img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/Commit.png?raw=true" width=800) />
+
+
 Step 5
 
 Moderator will use the Grammar & Spell Checker — LanguageTool extension for the browser to check for spelling and grammar
