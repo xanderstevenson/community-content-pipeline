@@ -13,8 +13,8 @@ Step 2
 
 - Write MS Word editor using this template. 
 - Use Spelling and Grammar check
-![Alt text](/media/Word-Check.png?raw=true "Word Check")
-]
+![](https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/Word-Check.png?raw=true "Word Check")
+
 
 
 - When finished, copy the document here and commit it, checking 'Create a new branch for this commit and start a pull request.'
