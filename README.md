@@ -8,3 +8,8 @@ Locate and enter the folder you want to create a new blog or article in
 
 Step 2
 
+Copy this template and save it to begin your writing
+
+
+
+
