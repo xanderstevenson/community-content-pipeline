@@ -23,7 +23,7 @@ Use Spelling and Grammar check in Word
 
 Step 4
 
-When finished, copy the document here and commit it, checking 'Create a new branch for this commit and start a pull request.'
+When finished, copy the document here and commit it, checking 'Create a new branch for this commit and start a pull request.' The temporary branch, with 'patch' in the name is automatically generated for you.
 
 
 <img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/Commit.png?raw=true" width=600) />
