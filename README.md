@@ -14,7 +14,7 @@ Step 2
 - Write MS Word editor using this template. 
 - Use Spelling and Grammar check
 - 
-<img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/Word-Check.png?raw=true" "width-400")/>
+<img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/Word-Check.png?raw=true" "width=400") />
 
 
 
