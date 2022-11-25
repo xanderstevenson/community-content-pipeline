@@ -4,7 +4,6 @@ Linting, Approval and Integration with Asana for the Cisco Community Engagement 
 
 Step 1
 
-Use Google Chrome for these this activity
 
 Locate and enter the folder you want to create a new blog or article in 
 
