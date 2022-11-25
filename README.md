@@ -13,7 +13,8 @@ Step 2
 
 - Write MS Word editor using this template. 
 - Use Spelling and Grammar check
-![](https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/Word-Check.png?raw=true "Word Check")
+- 
+<img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/Word-Check.png?raw=true" "width-400")
 
 
 
