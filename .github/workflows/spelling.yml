@@ -13,7 +13,7 @@ name: Check Spelling
 #   to update the spelling metadata.
 #
 # `with.experimental_apply_changes_via_bot`
-#   Tells the action to support and generate messages that enable it
+#   Tells the action to support and generate messages that enable it.
 #   to make a commit to update the spelling metadata.
 #
 # `with.ssh_key`
