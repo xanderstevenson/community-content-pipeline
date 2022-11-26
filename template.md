@@ -8,12 +8,12 @@
 <p><font size="4"><li-image width="489" height="265" alt="alexstev_0-1666962856110.png" align="center" id="166634i3132588137D91773" size="large" resized="true" sourceType="new"></li-image></font>{image goes here}</p>
 <p class="lia-align-center">Image description</p>
 <p>&nbsp;</p>
-<p><font size="4">APIs, often thought of as the most vulnerable attack vector into disrupting microservices-based architectures, have seen increased hardening thanks to initiatives like the open-source tool, <a href="https://developer.cisco.com/site/api-insights/" target="_blank" rel="noopener">API Insights</a>, that Cisco has built to help developers improve API quality and security. This is accomplished through validation and scoring of API specifications as well as trending of API quality with changelog and diff comparisons of AP versions to identify breaking changes.</font></p>
+<p><font size="4">More text</font></p>
 <p><font size="4">Cisco&rsquo;s <a href="https://developer.cisco.com/application-first-security/" target="_blank" rel="noopener">Application-First Security</a> approach leverages <a href="https://www.appdynamics.com/" target="_blank" rel="noopener">AppDynamics</a> with Cisco Secure Application, <a href="https://www.cisco.com/c/en/us/products/security/tetration/index.html" target="_blank" rel="noopener">Secure Workload</a>&nbsp;(Tetration),&nbsp;<a href="https://www.cisco.com/c/en/us/products/security/stealthwatch-cloud/index.html" target="_blank" rel="noopener">Secure Cloud Analytics</a> (Stealthwatch Cloud), and <a href="https://www.cisco.com/c/en/us/products/security/duo/index.html" target="_blank" rel="noopener">Cisco Secure Access by Duo</a> to secure every stage of the application lifecycle. This is implemented across cloud and on-premises deployments, on any workload and integrated into any application.&nbsp;</font></p>
-<p><font size="4">These DevOps tools and approach go a very long way toward securing our apps and networks, end-to-end. DevOps also takes us further into Shift-left territory by requiring collaboration between security, development, IT, OT, and other stakeholders; this necessary communication gets the conversation started and has dramatically improved readiness, but, as always, even more is needed. Enter DevSecOps.</font></p>
+<p><font size="4"More text</font></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<h3 class="lia-align-center">What&rsquo;s Needed: DevSecOps</h3>
+<h3 class="lia-align-center">Subtitle</h3>
 <p>&nbsp;</p>
 <p><font size="4">DevSecOps is an aspect or offshoot of DevOps which facilitates collaboration between the traditionally siloed IT teams mentioned just above. DevSecOps is the practice of baking security into the DevOps Lifecycle and&nbsp;CI/CD&nbsp;pipeline. We&rsquo;ve already discussed how DevOps, by necessity, includes security teams in the SDLC process. DevSecOps, by incorporating DevOps values into software security, ensures security becomes an active, integrated part of the development process, at <em>every </em>step.</font></p>
 <p>&nbsp;</p>
