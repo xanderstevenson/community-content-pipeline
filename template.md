@@ -21,7 +21,7 @@
 <p class="lia-align-center">Image description</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p><font size="4">According to <a href="https://www.atlassian.com/devops/devops-tools/devsecops-tools" target="_blank" rel="noopener">Atlassian</a>, to implement successfully DevSecOps, teams should:&nbsp;</font></p>
+<p><font size="4">More text;</font></p>
 <p>&nbsp;</p>
 <ul>
 <li><font size="4">Introduce security throughout the software development lifecycle to minimize vulnerabilities in software code.</font></li>
