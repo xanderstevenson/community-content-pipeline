@@ -5,25 +5,21 @@
 
 Step 1
 
-
-Locate and enter the folder you want to create a new blog or article in 
+If needed, download the template and adjust as necessary
 
 
 Step 2
 
-Copy this template into the MS Word editor and write tour article
 
-
-Step 3 
-
-Use Spelling and Grammar check in Word
+Write your post. Use Spelling and Grammar check in Word ot other text editor
 
 <img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/Word-Check.png?raw=true" width=800) />
 
 
-Step 4
 
-When finished, copy the document here and commit it, checking 'Create a new branch for this commit and start a pull request.' The temporary branch, with 'patch' in the name is automatically generated for you.
+Step 3 
+
+Find the directory where your article/blog will be and commit it, checking 'Create a new branch for this commit and start a pull request.' The temporary branch, with 'patch' in the name is automatically generated for you.
 
 
 <img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/Commit.png?raw=true" width=600) />
