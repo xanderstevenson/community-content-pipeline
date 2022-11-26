@@ -9,7 +9,7 @@
 <p class="lia-align-center">Image description</p>
 <p>&nbsp;</p>
 <p><font size="4">More text</font></p>
-<p><font size="4">Cisco&rsquo;s <a href="https://developer.cisco.com/application-first-security/" target="_blank" rel="noopener">Application-First Security</a> approach leverages <a href="https://www.appdynamics.com/" target="_blank" rel="noopener">AppDynamics</a> with Cisco Secure Application, <a href="https://www.cisco.com/c/en/us/products/security/tetration/index.html" target="_blank" rel="noopener">Secure Workload</a>&nbsp;(Tetration),&nbsp;<a href="https://www.cisco.com/c/en/us/products/security/stealthwatch-cloud/index.html" target="_blank" rel="noopener">Secure Cloud Analytics</a> (Stealthwatch Cloud), and <a href="https://www.cisco.com/c/en/us/products/security/duo/index.html" target="_blank" rel="noopener">Cisco Secure Access by Duo</a> to secure every stage of the application lifecycle. This is implemented across cloud and on-premises deployments, on any workload and integrated into any application.&nbsp;</font></p>
+<p><font size="4">More text</font></p>
 <p><font size="4"More text</font></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
