@@ -6,7 +6,7 @@
 <p><font size="4">Your text</font></p>
 <br>
 <p><font size="4"><li-image width="489" height="265" alt="alexstev_0-1666962856110.png" align="center" id="166634i3132588137D91773" size="large" resized="true" sourceType="new"></li-image></font>{image goes here}</p>
-<p class="lia-align-center">Image description</p>
+<p class="lia-align-center"><font size="5">Image description</font></p>
 <p>&nbsp;</p>
 <p><font size="4">More text</font></p>
 <p>&nbsp;</p>
