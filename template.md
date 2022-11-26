@@ -1,11 +1,11 @@
 <h2 class="lia-align-center">&nbsp;</h2>
-<h2 class="lia-align-center">DevSecOps Defined</h2>
+<h2 class="lia-align-center">Main Title</h2>
 <p>&nbsp;</p>
-<h3 class="lia-align-center">Where We Are Now</h3>
+<h3 class="lia-align-center">Subtitle</h3>
 <p>&nbsp;</p>
-<p><font size="4">We can all be grateful for the recent developments in cybersecurity involving observability and AI, which have increased visibility and granular control, thus greatly improving threat detection and response. The Shift-left paradigm and the programmability and automation introduced by modern DevOps have facilitated increased security throughout the CI/CD pipeline via automated tests for configuration, compliance, and other factors, therefore reducing the opportunity for human error as well.</font></p>
+<p><font size="4">Your text</font></p>
 <p><font size="4"><li-image width="489" height="265" alt="alexstev_0-1666962856110.png" align="center" id="166634i3132588137D91773" size="large" resized="true" sourceType="new"></li-image></font></p>
-<p class="lia-align-center">Basic DevOps Lifecycle</p>
+<p class="lia-align-center">Image description</p>
 <p>&nbsp;</p>
 <p><font size="4">APIs, often thought of as the most vulnerable attack vector into disrupting microservices-based architectures, have seen increased hardening thanks to initiatives like the open-source tool, <a href="https://developer.cisco.com/site/api-insights/" target="_blank" rel="noopener">API Insights</a>, that Cisco has built to help developers improve API quality and security. This is accomplished through validation and scoring of API specifications as well as trending of API quality with changelog and diff comparisons of AP versions to identify breaking changes.</font></p>
 <p><font size="4">Cisco&rsquo;s <a href="https://developer.cisco.com/application-first-security/" target="_blank" rel="noopener">Application-First Security</a> approach leverages <a href="https://www.appdynamics.com/" target="_blank" rel="noopener">AppDynamics</a> with Cisco Secure Application, <a href="https://www.cisco.com/c/en/us/products/security/tetration/index.html" target="_blank" rel="noopener">Secure Workload</a>&nbsp;(Tetration),&nbsp;<a href="https://www.cisco.com/c/en/us/products/security/stealthwatch-cloud/index.html" target="_blank" rel="noopener">Secure Cloud Analytics</a> (Stealthwatch Cloud), and <a href="https://www.cisco.com/c/en/us/products/security/duo/index.html" target="_blank" rel="noopener">Cisco Secure Access by Duo</a> to secure every stage of the application lifecycle. This is implemented across cloud and on-premises deployments, on any workload and integrated into any application.&nbsp;</font></p>
