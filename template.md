@@ -4,7 +4,7 @@
 <h3 class="lia-align-center">Subtitle</h3>
 <p>&nbsp;</p>
 <p><font size="4">Your text</font></p>
-<p><font size="4"><li-image width="489" height="265" alt="alexstev_0-1666962856110.png" align="center" id="166634i3132588137D91773" size="large" resized="true" sourceType="new"></li-image></font></p>
+<p><font size="4"><li-image width="489" height="265" alt="alexstev_0-1666962856110.png" align="center" id="166634i3132588137D91773" size="large" resized="true" sourceType="new"></li-image></font>image goes here</p>
 <p class="lia-align-center">Image description</p>
 <p>&nbsp;</p>
 <p><font size="4">APIs, often thought of as the most vulnerable attack vector into disrupting microservices-based architectures, have seen increased hardening thanks to initiatives like the open-source tool, <a href="https://developer.cisco.com/site/api-insights/" target="_blank" rel="noopener">API Insights</a>, that Cisco has built to help developers improve API quality and security. This is accomplished through validation and scoring of API specifications as well as trending of API quality with changelog and diff comparisons of AP versions to identify breaking changes.</font></p>
