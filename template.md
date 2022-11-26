@@ -22,7 +22,6 @@
 <p>&nbsp;</p>
 <p><font size="4">More text</font></p>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
 <h3 class="lia-align-center">Subtitle</h3>
 <p>&nbsp;</p>
 <p><font size="4">More text</font></p>
