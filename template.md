@@ -15,10 +15,10 @@
 <p>&nbsp;</p>
 <h3 class="lia-align-center">Subtitle</h3>
 <p>&nbsp;</p>
-<p><font size="4">DevSecOps is an aspect or offshoot of DevOps which facilitates collaboration between the traditionally siloed IT teams mentioned just above. DevSecOps is the practice of baking security into the DevOps Lifecycle and&nbsp;CI/CD&nbsp;pipeline. We&rsquo;ve already discussed how DevOps, by necessity, includes security teams in the SDLC process. DevSecOps, by incorporating DevOps values into software security, ensures security becomes an active, integrated part of the development process, at <em>every </em>step.</font></p>
+<p><font size="4"More text</font></p>
 <p>&nbsp;</p>
-<p><font size="4"><li-image width="451" height="304" alt="alexstev_1-1666962856134.png" align="center" id="166635iDBD88B6345179EFF" size="large" resized="true" sourceType="new"></li-image></font></p>
-<p class="lia-align-center">Basic DevSecOps: Continuous Security in the DevOps Lifecycle</p>
+<p><font size="4"><li-image width="451" height="304" alt="alexstev_1-1666962856134.png" align="center" id="166635iDBD88B6345179EFF" size="large" resized="true" sourceType="new"></li-image></font>{image goes here}</p>
+<p class="lia-align-center">Image description</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p><font size="4">According to <a href="https://www.atlassian.com/devops/devops-tools/devsecops-tools" target="_blank" rel="noopener">Atlassian</a>, to implement successfully DevSecOps, teams should:&nbsp;</font></p>
