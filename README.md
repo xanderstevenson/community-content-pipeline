@@ -16,8 +16,23 @@ Write your post. Use Spelling and Grammar check in Word ot other text editor
 <img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/Word-Check.png?raw=true" width=800) />
 
 
+Step 3
 
-Step 3 
+A moderator will review the document, using the Grammar & Spell Checker — LanguageTool extension for the browser to check for spelling and grammar
+https://chrome.google.com/webstore/detail/grammar-spell-checker-%E2%80%94-l/oldceeleldhonbafppcapldpdifcinji?hl=en-US
+
+
+Step 4
+
+If changes need to be made, the moderator will make the changes themself or the writer will be notified and make the changes themself. 
+
+
+Step 5
+
+Once all the edits are finished post the blog to the Cisco Community
+
+
+Step 6
 
 Find the [directory](https://github.com/xanderstevenson/community-content-pipeline/tree/main/developer-hub) where your article/blog will be and commit it, checking 'Create a new branch for this commit and start a pull request.' The temporary branch, with 'patch' in the name is automatically generated for you.
 
@@ -25,21 +40,9 @@ Find the [directory](https://github.com/xanderstevenson/community-content-pipeli
 <img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/Commit.png?raw=true" width=600) />
 
 
-Step 4
+Step 7
 
-A moderator will review the pullrequest, using the Grammar & Spell Checker — LanguageTool extension for the browser to check for spelling and grammar
-https://chrome.google.com/webstore/detail/grammar-spell-checker-%E2%80%94-l/oldceeleldhonbafppcapldpdifcinji?hl=en-US
-
-
-Step 5
-
-If changes need to be made, the moderator will make the changes themself or the writer will be notified and make the changes themself. For the latter, a new pull request will need to be made after the changes have been made. This cycle may need to happen multiple times until the document is up to standard.
-
-Step 6
-
-Once the document is satisfactory, the pull request will be merged into main. This will kick off a couple of processes:
-
-
+The Commit to main will notify those on the mailing list and and close the Asana task.
 
 
 
