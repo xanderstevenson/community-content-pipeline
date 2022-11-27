@@ -1,16 +1,18 @@
-on:
-  pull_request:
-    types: [opened, reopened]
+on: [push]
 
 jobs:
-  create-asana-attachment-job:
+  bump-version:
     runs-on: ubuntu-latest
-    name: Create pull request attachments on Asana tasks
+    name: Increment Git Tag
     steps:
-      - name: Create pull request attachments
-        uses: Asana/create-app-attachment-github-action@latest
-        id: postAttachment
+      - name: Checkout
+        uses: actions/checkout@v2
+        
+      - name: Increment Git Tag
+        uses: xanderstevenson/gtts-action@v1
+        id: gtts-action
         with:
-          asana-secret: ${{ secrets.ASANA_SECRET }}
-      - name: Log output status
-        run: echo "Status is ${{ steps.postAttachment.outputs.status }}"
+          version-type: patch
+          
+      - name: Get the new version
+        run: echo "The new version is ${{ steps.gtts-action.outputs.new-version }}"
