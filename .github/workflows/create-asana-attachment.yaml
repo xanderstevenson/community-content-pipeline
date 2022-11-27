@@ -7,6 +7,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      
+      - name: setup Python 3.10.3
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.10.3
+        
+      - name: Run python commands
+        run: |
+          pip install --upgrade pip
+          python3 -m venv env
+          source env/bin/activate
+          echo "VIRTUAL ENV:" $VIRTUAL_ENV
         
       - name: Increment Git Tag
         uses: xanderstevenson/gtts-action@v1
