@@ -5,7 +5,7 @@
 
 Step 1
 
-If needed, download the template and adjust as necessary
+If needed, download the template and adjust as necessary.
 
 
 Step 2
