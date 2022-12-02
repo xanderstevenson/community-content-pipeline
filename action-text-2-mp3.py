@@ -20,8 +20,10 @@ class GetAudio:
         self,
         path,
         accent,
+        mp3_base_path
     ):
         self.path = path
+        self.mp3_base_path = mp3_base_path
         # function to assign accent code based on numerical choice
         def match_accent(accent):
             match accent:
@@ -65,7 +67,7 @@ class GetAudio:
                 mp3.save(file_name + '.mp3')
                 # Alert use of success and location of mp3
                 click.secho(
-                    f"\n\nMP3 file created at {mp3_base_path}/mp3s/{file_name}.mp3\n\n",
+                    f"\n\nMP3 file created at {self.mp3_base_path}/mp3s/{file_name}.mp3\n\n",
                     fg="green",
                 )
 #                 # Automatically play audio sample and alert user
