@@ -73,7 +73,8 @@ if __name__ == "__main__":
     the_filename = str(the_filename)
     print(f"the filename is {the_filename} and it is type {type(the_filename)}")
     #strip the filename and get the path where the file changed
-    mp3_base_path = os.path.dirname(os.path.abspath(the_filename))
+    mp3_base_path = os.path.dirname(the_filename)
+#     mp3_base_path = os.path.dirname(os.path.abspath(the_filename))
     print(type(mp3_base_path))
     mp3_base_path = str(mp3_base_path)
     print(f"the mp3_base_path is {mp3_base_path} and it is type {type(mp3_base_path)}")
