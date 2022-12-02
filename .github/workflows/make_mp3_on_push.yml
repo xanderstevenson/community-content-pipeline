@@ -47,7 +47,8 @@ jobs:
         run: |
           git config --local user.name "xanderstevenson"
           a = ${{ steps.file_changes.outputs.files_modified}}
-          git add ${a%/*}/./mp3s
+          # git add ${a%/*}/./mp3s
+          git add .
           git commit -m "Updating the repository, mp3 in the ./mp3s folder"
       - name: Push changes # push the output folder to your repo
         uses: ad-m/github-push-action@master
