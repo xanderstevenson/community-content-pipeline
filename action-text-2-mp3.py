@@ -60,7 +60,7 @@ class GetAudio:
                     file_name.replace(".txt", "").replace(".md", "")
                 )
                 # save mp3
-                mp3_folder = '\\'.join(file_name.split('\\')[0:-1])
+                mp3_folder = '\\'.join({self.path}.split('\\')[0:-1])
                 mp3.save(f"{mp3_folder}/mp3s/{file_name}.mp3")
                 # Alert use of success and location of mp3
                 click.secho(
