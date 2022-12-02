@@ -15,52 +15,52 @@ with contextlib.redirect_stdout(None):
     import pygame
 
 # main class
-class GetAudio:
-    def __init__(
-        self,
-        text_file,
-        accent,
-        mp3_base_path
-    ):
-        self.text_file = text_file
-        self.mp3_base_path = mp3_base_path
-        self.accent = accent
+# class GetAudio:
+#     def __init__(
+#         self,
+#         text_file,
+#         accent,
+#         mp3_base_path
+#     ):
+#         self.text_file = text_file
+#         self.mp3_base_path = mp3_base_path
+#         self.accent = accent
 
-    # main function
-    def create_mp3(self):
-        language = "en"
-        # load text, convert to mp3, save file and play sample for user
-        try:
-            with open(self.text_file) as f:
-                the_text = f.read()
-                # conversion magic
-                mp3 = gTTS(the_text, lang=language, tld=self.accent)
-                # strip filename from filepath
-                file_name = ntpath.basename(self.text_file)
-                # strip file type extension from name
-                file_name = (
-                    file_name.replace(".txt", "").replace(".md", "")
-                )
-                # save mp3
-                mp3_filename = self.mp3_base_path + '/mp3s/' + file_name + '.mp3'
-                mp3.save(mp3_filename)
-                # Alert use of success and location of mp3
-                click.secho(
-                    f"\n\nMP3 file {file_name} created.\n\n",
-                    fg="green",
-                )
-        # handle exception (exits program)
-        except FileNotFoundError:
-            print(
-                "\n\nERROR\n\nA file named '{}' does not exist. Please try again.\n\n".format(
-                    file_name
-                )
+# main function
+def create_mp3(text_file, accent, mp3_base_path):
+    language = "en"
+    # load text, convert to mp3, save file and play sample for user
+    try:
+        with open(text_file) as f:
+            the_text = f.read()
+            # conversion magic
+            mp3 = gTTS(the_text, lang=language, tld=accent)
+            # strip filename from filepath
+            file_name = ntpath.basename(text_file)
+            # strip file type extension from name
+            file_name = (
+                file_name.replace(".txt", "").replace(".md", "")
             )
+            # save mp3
+            mp3_filename = mp3_base_path + '/mp3s/' + file_name + '.mp3'
+            mp3.save(mp3_filename)
+            # Alert use of success and location of mp3
+            click.secho(
+                f"\n\nMP3 file {file_name} created.\n\n",
+                fg="green",
+            )
+    # handle exception (exits program)
+    except FileNotFoundError:
+        print(
+            "\n\nERROR\n\nA file named '{}' does not exist. Please try again.\n\n".format(
+                file_name
+            )
+        )
 
 # Call main class and function
-def cli(text_file, accent, mp3_base_path):
-    invoke_class = GetAudio(text_file, accent, mp3_base_path)
-    invoke_class.create_mp3()
+# def cli(text_file, accent, mp3_base_path):
+#     invoke_class = GetAudio(text_file, accent, mp3_base_path)
+#     invoke_class.create_mp3()
 
 
 if __name__ == "__main__":
@@ -70,5 +70,5 @@ if __name__ == "__main__":
     #strip the filename and get the path where the file changed
     mp3_base_path = os.path.dirname(os.path.abspath(the_filename))
     #run the program with the file, American accent and path
-    cli(the_filename, "com", mp3_base_path)
+    create_mp3(the_filename, "com", mp3_base_path)
 
