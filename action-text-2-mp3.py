@@ -34,7 +34,7 @@ class GetAudio:
             with open(self.text_file) as f:
                 the_text = f.read()
                 # conversion magic
-                mp3 = gTTS(the_text, lang=language, tld=accent)
+                mp3 = gTTS(the_text, lang=language, tld=self.accent)
                 # strip filename from filepath
                 file_name = ntpath.basename(self.text_file)
                 # strip file type extension from name
