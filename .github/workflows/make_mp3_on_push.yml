@@ -46,7 +46,8 @@ jobs:
       - name: Commit files # transfer the new files back into the repository
         run: |
           git config --local user.name "xanderstevenson"
-          git add ./mp3s
+          a = ${{ $TEST_VAR }}
+          git add ${a%/*}/./mp3s
           git commit -m "Updating the repository, mp3 in the ./mp3s folder"
       - name: Push changes # push the output folder to your repo
         uses: ad-m/github-push-action@master
