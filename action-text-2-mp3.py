@@ -64,7 +64,7 @@ class GetAudio:
                 )
                 # save mp3
                 
-                mp3.save(file_name + '.mp3')
+                mp3.save(mp3_base_path + '/mp3s/ + file_name + '.mp3')
                 # Alert use of success and location of mp3
                 click.secho(
                     f"\n\nMP3 file created at {self.mp3_base_path}/mp3s/{file_name}.mp3\n\n",
@@ -119,7 +119,7 @@ if __name__ == "__main__":
     #import environmental variable from the GitHub actions workflow
     # strip the brackets and quotes
     the_filename = "./" + os.getenv('TEST_VAR').replace('[','').replace(']','').replace('"','')
-    #run the program with the file and 3 for American accent
     mp3_base_path = os.path.dirname(os.path.abspath(the_filename))
+    #run the program with the file and 3 for American accent
     cli(the_filename, 3, mp3_base_path)
     print(f"the file name is {the_filename}")
