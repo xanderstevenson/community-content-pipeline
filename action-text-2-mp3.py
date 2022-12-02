@@ -31,7 +31,7 @@ def create_mp3(text_file, accent, mp3_base_path):
     language = "en"
     # load text, convert to mp3, save file and play sample for user
     try:
-        with open(text_file) as f:
+        with open(text_file, 'r', encoding='utf-8') as f:
             the_text = f.read()
             # conversion magic
             mp3 = gTTS(the_text, lang=language, tld=accent)
