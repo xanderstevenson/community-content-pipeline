@@ -47,7 +47,7 @@ def create_mp3(text_file, accent, mp3_base_path):
             mp3.save(mp3_filename)
             # Alert use of success and location of mp3
             click.secho(
-                f"\n\nMP3 file {file_name} created.\n\n",
+                f"\n\nAn MP3 file named '{file_name}' created.\n\n",
                 fg="green",
             )
     # handle exception (exits program)
