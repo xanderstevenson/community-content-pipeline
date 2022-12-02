@@ -22,7 +22,7 @@ class GetAudio:
         accent,
         mp3_base_path
     ):
-        self.text_file = file
+        self.text_file = text_file
         self.mp3_base_path = mp3_base_path
         self.accent = accent
 
