@@ -70,7 +70,7 @@ class GetAudio:
                 )
 #                 # Automatically play audio sample and alert user
 #                 pygame.mixer.init()  # initialize mixer module
-#                 pygame.mixer.music.load(f"{ mp3_base_path }/mp3s/{file_name}.mp3")
+#                 pygame.mixer.music.load(f"{ the_filename }/mp3s/{file_name}.mp3")
 #                 pygame.mixer.music.play()
 #                 print("Audio sample will play for 3 seconds\n\n")
 #                 time.sleep(3)
