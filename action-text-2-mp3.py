@@ -67,7 +67,7 @@ def create_mp3(text_file, accent, mp3_base_path):
 if __name__ == "__main__":
     #import environmental variable from the GitHub actions workflow
     # get the file that changed and strip the brackets and quotes
-    print(f"the TEST_VAR is {TEST_VAR}")
+    print(f"the TEST_VAR is {os.getenv('TEST_VAR')}")
     the_filename = "./" + (os.getenv('TEST_VAR').replace('[','').replace(']','').replace('"',''))
     print(type(the_filename))
     the_filename = str(the_filename)
