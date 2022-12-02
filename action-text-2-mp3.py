@@ -68,8 +68,14 @@ if __name__ == "__main__":
     #import environmental variable from the GitHub actions workflow
     # get the file that changed and strip the brackets and quotes
     the_filename = "./" + (os.getenv('TEST_VAR').replace('[','').replace(']','').replace('"',''))
+    print(type(the_filename))
+    the_filename = str(the_filename)
+    print(f"the filename is {the_filename} and it is type {type(the_filename)}")
     #strip the filename and get the path where the file changed
     mp3_base_path = os.path.dirname(os.path.abspath(the_filename))
+    print(type(mp3_base_path))
+    mp3_base_path = str(mp3_base_path)
+    print(f"the mp3_base_path is {mp3_base_path} and it is type {type(mp3_base_path)}")
     #run the program with the file, American accent and path
     create_mp3(the_filename, "com", mp3_base_path)
 
