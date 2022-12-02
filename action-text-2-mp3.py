@@ -62,7 +62,7 @@ class GetAudio:
                 )
                 # save mp3
                 
-                mp3.save(f"{mp3_base_path}/mp3s/{file_name}.mp3")
+                mp3.save(mp3_base_path + '/mp3s/' + file_name + .'mp3')
                 # Alert use of success and location of mp3
                 click.secho(
                     f"\n\nMP3 file created at { mp3_base_path }/mp3s/{file_name}.mp3\n\n",
