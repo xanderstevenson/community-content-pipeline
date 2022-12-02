@@ -55,7 +55,7 @@ class GetAudio:
                 mp3 = gTTS(the_text, lang=language, tld=self.accent)
                 # strip filename from filepath
                 file_name = ntpath.basename(self.path)
-                mp3_base_path = os.path.dirname(os.path.abspath(self.path))
+                mp3_base_path = os.path.dirname(os.path.abspath(the_filename))
                 # strip file type extension from name
                 file_name = (
                     file_name.replace(".txt", "").replace(".md", "")
