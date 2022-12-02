@@ -65,7 +65,7 @@ class GetAudio:
                 mp3.save(file_name + '.mp3')
                 # Alert use of success and location of mp3
                 click.secho(
-                    f"\n\nMP3 file created at { the_filename }/mp3s/{file_name}.mp3\n\n",
+                    f"\n\nMP3 file created at { '\\'.join((the_filename).split('\\')[0:-1]) }/mp3s/{file_name}.mp3\n\n",
                     fg="green",
                 )
 #                 # Automatically play audio sample and alert user
