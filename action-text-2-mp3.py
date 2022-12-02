@@ -117,3 +117,4 @@ if __name__ == "__main__":
     the_filename = "./" + os.getenv('TEST_VAR').replace('[','').replace(']','').replace('"','')
     #run the program with the file and 3 for American accent
     cli(the_filename, 3)
+    print(f"the file name is {the_filename}")
