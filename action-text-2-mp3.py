@@ -55,13 +55,14 @@ class GetAudio:
                 mp3 = gTTS(the_text, lang=language, tld=self.accent)
                 # strip filename from filepath
                 file_name = ntpath.basename(self.path)
+                mp3_base_path = '\\'.join(file_name.split('\\')[0:-1])
                 # strip file type extension from name
                 file_name = (
                     file_name.replace(".txt", "").replace(".md", "")
                 )
                 # save mp3
-                mp3_folder = '\\'.join({self.path}.split('\\')[0:-1])
-                mp3.save(f"{mp3_folder}/mp3s/{file_name}.mp3")
+                
+                mp3.save(f"{mp3_base_path}/mp3s/{file_name}.mp3")
                 # Alert use of success and location of mp3
                 click.secho(
                     f"\n\nMP3 file created at { sys.path[0] }/mp3s/{file_name}.mp3\n\n",
