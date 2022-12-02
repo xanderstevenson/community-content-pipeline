@@ -58,7 +58,7 @@ class GetAudio:
 
 # Call main class and function
 def cli(text_file, accent, mp3_base_path):
-    invoke_class = GetAudio(path, accent, mp3_base_path)
+    invoke_class = GetAudio(text_file, accent, mp3_base_path)
     invoke_class.create_mp3()
 
 
