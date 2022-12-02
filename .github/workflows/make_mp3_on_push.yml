@@ -46,7 +46,7 @@ jobs:
       - name: Commit files # transfer the new files back into the repository
         run: |
           git config --local user.name "xanderstevenson"
-          a = ${{ steps.file_changes.outputs.files_modified}}
+          # a = ${{ steps.file_changes.outputs.files_modified}}
           # git add ${a%/*}/./mp3s
           git add .
           git commit -m "Updating the repository, mp3 in the ./mp3s folder"
