@@ -55,7 +55,7 @@ class GetAudio:
                 mp3 = gTTS(the_text, lang=language, tld=self.accent)
                 # strip filename from filepath
                 file_name = ntpath.basename(self.path)
-                mp3_base_path = os.path.dirname(os.path.abspath(the_filename))
+               
                 # strip file type extension from name
                 file_name = (
                     file_name.replace(".txt", "").replace(".md", "")
@@ -108,8 +108,8 @@ class GetAudio:
 
 
 # Call main class and function
-def cli(path, accent):
-    invoke_class = GetAudio(path, accent)
+def cli(path, accent, mp3_base_path):
+    invoke_class = GetAudio(path, accent, mp3_base_path)
     invoke_class.create_mp3()
 
 
@@ -118,5 +118,6 @@ if __name__ == "__main__":
     # strip the brackets and quotes
     the_filename = "./" + os.getenv('TEST_VAR').replace('[','').replace(']','').replace('"','')
     #run the program with the file and 3 for American accent
-    cli(the_filename, 3)
+    mp3_base_path = os.path.dirname(os.path.abspath(the_filename))
+    cli(the_filename, 3, mp3_base_path)
     print(f"the file name is {the_filename}")
