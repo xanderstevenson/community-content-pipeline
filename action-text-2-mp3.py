@@ -46,7 +46,7 @@ class GetAudio:
                 mp3.save(mp3_filename)
                 # Alert use of success and location of mp3
                 click.secho(
-                    f"\n\nMP3 file {mp3_filename} created at {self.mp3_base_path}/mp3s/{file_name}.mp3\n\n",
+                    f"\n\nMP3 file {mp3_filename} created.\n\n",
                     fg="green",
                 )
         # handle exception (exits program)
