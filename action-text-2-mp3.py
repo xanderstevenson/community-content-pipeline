@@ -27,7 +27,7 @@ class GetAudio:
         self.accent = accent
 
     # main function
-    def create_mp3(self):
+    def create_mp3(text_file, accent, mp3_base_path):
         language = "en"
         # load text, convert to mp3, save file and play sample for user
         try:
@@ -59,7 +59,7 @@ class GetAudio:
 # Call main class and function
 def cli(text_file, accent, mp3_base_path):
     invoke_class = GetAudio(text_file, accent, mp3_base_path)
-    invoke_class.create_mp3()
+    invoke_class.create_mp3(text_file, accent, mp3_base_path)
 
 
 if __name__ == "__main__":
