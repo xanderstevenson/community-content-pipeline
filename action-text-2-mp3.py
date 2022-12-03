@@ -63,7 +63,12 @@ def create_mp3(text_file, accent, mp3_base_path):
 if __name__ == "__main__":
     #import environmental variable from the GitHub actions workflow
     # get the file that changed and strip the brackets and quotes
-    the_filename = "./" + (os.getenv('MODIFIED_FILE').replace('[','').replace(']','').replace('"',''))
+    the_modified_filename = "./" + (os.getenv('MODIFIED_FILE').replace('[','').replace(']','').replace('"',''))
+    the_added_filename = "./" + (os.getenv('ADDED_FILE').replace('[','').replace(']','').replace('"',''))
+    if len(the_modified_filename) > len(the_added_filename):
+        the_filename = the_modified_filename
+    else:
+        the_filename = the_added_filename
     the_filename = str(the_filename)
     print(f"the filename is {the_filename}")
     #strip the filename and get the path where the file changed
