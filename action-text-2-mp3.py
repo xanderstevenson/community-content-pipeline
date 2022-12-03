@@ -54,8 +54,8 @@ if __name__ == "__main__":
    
     #import environmental variable from the GitHub actions workflow
     # get the file that changed or was added and strip the brackets and quotes
-    the_modified_filename = "./" + (os.getenv('MODIFIED_FILE').replace('[','').replace(']','').replace('"',''))
-    the_added_filename = "./" + (os.getenv('ADDED_FILE').replace('[','').replace(']','').replace('"',''))
+    the_modified_filename = (os.getenv('MODIFIED_FILE').replace('[','').replace(']','').replace('"',''))
+    the_added_filename = (os.getenv('ADDED_FILE').replace('[','').replace(']','').replace('"',''))
     
     #compare to see if a file was added or modified, keep the one which is not './'
     if len(the_modified_filename) > len(the_added_filename):
@@ -78,7 +78,8 @@ if __name__ == "__main__":
         
     #run the program with the file, American accent and path
     for each_file in the_filename:
-        create_mp3(each_file, "com", mp3_base_path)
+        each_file = "./" + each_file
+        create_mp3(each_file, "com", os.path.abspath(each_file))
 
 #     #Debuggging
 #     print(f"the mp3_base_path is {mp3_base_path}")
