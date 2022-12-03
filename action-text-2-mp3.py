@@ -65,6 +65,8 @@ if __name__ == "__main__":
     # get the file that changed and strip the brackets and quotes
     the_modified_filename = "./" + (os.getenv('MODIFIED_FILE').replace('[','').replace(']','').replace('"',''))
     the_added_filename = "./" + (os.getenv('ADDED_FILE').replace('[','').replace(']','').replace('"',''))
+    print(f"the modified file is {the_modified_filename}")
+    print(f"the added file is {the_added_filename}")
     if len(the_modified_filename) > len(the_added_filename):
         the_filename = the_modified_filename
     else:
