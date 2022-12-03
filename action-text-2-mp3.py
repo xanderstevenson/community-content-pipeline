@@ -46,7 +46,7 @@ def create_mp3(text_file, accent, mp3_base_path):
     except FileNotFoundError:
         print(
             "\n\nERROR\n\nA file named '{}' does not exist. Please try again.\n\n".format(
-                file_name
+                text_file
             )
         )
 
@@ -77,7 +77,8 @@ if __name__ == "__main__":
         time.sleep(3)
         
     #run the program with the file, American accent and path
-    create_mp3(the_filename, "com", mp3_base_path)
+    for each_file in the_filename:
+        create_mp3(each_file, "com", mp3_base_path)
 
 #     #Debuggging
 #     print(f"the mp3_base_path is {mp3_base_path}")
