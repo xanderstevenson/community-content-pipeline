@@ -69,13 +69,15 @@ if __name__ == "__main__":
     mp3_base_path = os.path.dirname(the_filename)
 #     mp3_base_path = os.path.dirname(os.path.abspath(the_filename))
     mp3_base_path = str(mp3_base_path)
+    print(f"the mp3_base_path is {mp3_base_path}")
     if not os.path.exists(mp3_base_path + '/mp3s/'):
         os.makedirs(mp3_base_path + '/mp3s/')
+        time.sleep(3)
     #run the program with the file, American accent and path
     create_mp3(the_filename, "com", mp3_base_path)
 
 #     #Debuggging
-#     print(f"the mp3_base_path is {mp3_base_path} and it is type {type(mp3_base_path)}")
+#     print(f"the mp3_base_path is {mp3_base_path}")
 #     print(f"the TMODIFIED_FILE is {os.getenv('MODIFIED_FILE')}")
 #     print(type(the_filename))
 #     print(f"the filename is {the_filename} and it is type {type(the_filename)}")
