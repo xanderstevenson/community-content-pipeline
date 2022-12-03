@@ -27,28 +27,23 @@ jobs:
           outout: ''
           fileOutput: ''
        
-#       - name: List of the GitHub Actions environment variables on Windows
-#         run: env
-        
       - name: test
-        if: ${{ steps.file_changes.outputs.files_modified}} != ''
         run:    |
           echo 'modified file = ${{ steps.file_changes.outputs.files_modified}}'   
           
       - name: execute py script # run file
         if: ${{ steps.file_changes.outputs.files_modified}} != []
         env:
-          TEST_VAR: ${{ steps.file_changes.outputs.files_modified}}
+          MODIFIED_FILE: ${{ steps.file_changes.outputs.files_modified}}
         run: |
           python3 action-text-2-mp3.py
-          echo "workflow testvar is $TEST_VAR"
+          
       - name: Commit files # transfer the new files back into the repository
         run: |
           git config --local user.name "xanderstevenson"
-          # a = ${{ steps.file_changes.outputs.files_modified}}
-          # git add ${a%/*}/./mp3s
           git add .
-          git commit -m "Updating the repository, mp3 in the ./mp3s folder"
+          git commit -m "Updating the repository, with mp3 in the ./mp3s folder"
+          
       - name: Push changes # push the output folder to your repo
         uses: ad-m/github-push-action@master
         with:
