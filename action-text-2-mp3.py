@@ -41,15 +41,14 @@ def create_mp3(text_file, accent, mp3_base_path):
                 f"\n\nAn MP3 file named '{file_name}' created.\n\n",
                 fg="green",
             )
+            
     # handle exception (exits program)
-    
     except FileNotFoundError:
         print(
             "\n\nERROR\n\nA file named '{}' does not exist. Please try again.\n\n".format(
                 file_name
             )
         )
-
 
 if __name__ == "__main__":
    
