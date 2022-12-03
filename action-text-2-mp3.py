@@ -65,7 +65,7 @@ if __name__ == "__main__":
     # get the file that changed and strip the brackets and quotes
     the_filename = "./" + (os.getenv('MODIFIED_FILE').replace('[','').replace(']','').replace('"',''))
     the_filename = str(the_filename)
-    print(f"the filename is {the_filename})
+    print(f"the filename is {the_filename}")
     #strip the filename and get the path where the file changed
     mp3_base_path = os.path.dirname(the_filename)
 #     mp3_base_path = os.path.dirname(os.path.abspath(the_filename))
