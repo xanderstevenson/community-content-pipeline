@@ -3,7 +3,7 @@ on:
   push:
     # only runs when files in this path are changed
     paths:
-      - developer-hub/**
+      - developer-hub/**.txt
 env:
   DEVOPS_DIR: devops
 
