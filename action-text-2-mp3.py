@@ -65,21 +65,23 @@ if __name__ == "__main__":
     the_filename = str(the_filename)
     print(f"the filename is {the_filename}")
     
-    #strip the filename and get the path where the file changed
-    mp3_base_path = os.path.dirname(the_filename)
-#     mp3_base_path = os.path.dirname(os.path.abspath(the_filename))
-    mp3_base_path = str(mp3_base_path)
-    print(f"the mp3_base_path is {mp3_base_path}")
-    
-    # if the 'mp3s' directory does not exist, create it
-    if not os.path.exists(mp3_base_path + '/mp3s/'):
-        os.makedirs(mp3_base_path + '/mp3s/')
-        time.sleep(3)
-        
-    #run the program with the file, American accent and path
     for each_file in the_filename.split(','):
         each_file = "./" + each_file
-        create_mp3(each_file, "com", os.path.dirname(each_file))
+    
+        #strip the filename and get the path where the file changed
+        mp3_base_path = os.path.dirname(each_file)
+    #     mp3_base_path = os.path.dirname(os.path.abspath(the_filename))
+        mp3_base_path = str(mp3_base_path)
+        print(f"the mp3_base_path is {mp3_base_path}")
+
+        # if the 'mp3s' directory does not exist, create it
+        if not os.path.exists(mp3_base_path + '/mp3s/'):
+            os.makedirs(mp3_base_path + '/mp3s/')
+            time.sleep(3)
+
+        #run the program with the file, American accent and path
+
+        create_mp3(each_file, "com", mp3_base_path)
 
 #     #Debuggging
 #     print(f"the mp3_base_path is {mp3_base_path}")
