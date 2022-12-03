@@ -36,7 +36,7 @@ def create_mp3(text_file, accent, mp3_base_path):
             # conversion magic
             mp3 = gTTS(the_text, lang=language, tld=accent)
             # strip filename from filepath
-            file_name = os.path.basename(text_file).rsplit('.', 1)[0] 
+            file_name = str(os.path.basename(text_file).rsplit('.', 1)[0])
 #             file_name = ntpath.basename(text_file)
             # strip file type extension from name
             file_name = (
