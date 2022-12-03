@@ -36,7 +36,7 @@ jobs:
           echo 'modified file = ${{ steps.file_changes.outputs.files_modified}}'   
           
       - name: execute py script # run file
-        if: ${{ steps.file_changes.outputs.files_modified}} != '[]'
+        if: ${{ steps.file_changes.outputs.files_modified}} != []
         env:
           TEST_VAR: ${{ steps.file_changes.outputs.files_modified}}
         run: |
