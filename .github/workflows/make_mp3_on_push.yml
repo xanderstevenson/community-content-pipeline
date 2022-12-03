@@ -1,7 +1,7 @@
 name: Create MP3 on Push to developer-hub
 on:
   push:
-    # only runs when files in this path are changed
+    # only runs when files in this path are changed, and they must end in .txt
     paths:
       - developer-hub/**.txt
 env:
