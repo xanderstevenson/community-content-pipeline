@@ -43,8 +43,8 @@ def create_mp3(text_file, accent, mp3_base_path):
                 file_name.replace(".txt", "").replace(".md", "")
             )
             # save mp3
-            if not os.path.exists('/mp3s/'):
-                os.makedirs('/mp3s/')
+            if not os.path.exists('./mp3s/'):
+                os.makedirs('./mp3s/')
             mp3_filename = mp3_base_path + '/mp3s/' + file_name + '.mp3'
             mp3.save(mp3_filename)
             # Alert use of success and location of mp3
