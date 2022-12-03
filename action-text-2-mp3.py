@@ -43,8 +43,7 @@ def create_mp3(text_file, accent, mp3_base_path):
                 file_name.replace(".txt", "").replace(".md", "")
             )
             # save mp3
-            if not os.path.exists(mp3_base_path + '/mp3s/'):
-                os.makedirs(mp3_base_path + '/mp3s/')
+
             mp3_filename = mp3_base_path + '/mp3s/' + file_name + '.mp3'
             mp3.save(mp3_filename)
             # Alert use of success and location of mp3
@@ -70,6 +69,8 @@ if __name__ == "__main__":
     mp3_base_path = os.path.dirname(the_filename)
 #     mp3_base_path = os.path.dirname(os.path.abspath(the_filename))
     mp3_base_path = str(mp3_base_path)
+    if not os.path.exists(mp3_base_path + '/mp3s/'):
+        os.makedirs(mp3_base_path + '/mp3s/')
     #run the program with the file, American accent and path
     create_mp3(the_filename, "com", mp3_base_path)
 
