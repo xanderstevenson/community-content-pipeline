@@ -35,6 +35,7 @@ jobs:
         if: ${{ steps.file_changes.outputs.files_modified}} != '[]'
         env:
           MODIFIED_FILE: ${{ steps.file_changes.outputs.files_modified}}
+          ADDED_FILE: ${{ steps.file_changes.outputs.files_added }}
         run: |
           python3 action-text-2-mp3.py
           
