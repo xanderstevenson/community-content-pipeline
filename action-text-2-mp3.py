@@ -77,7 +77,7 @@ if __name__ == "__main__":
         time.sleep(3)
         
     #run the program with the file, American accent and path
-    for each_file in list(the_filename):
+    for each_file in the_filename.split(','):
         each_file = "./" + each_file
         create_mp3(each_file, "com", os.path.dirname(each_file))
 
