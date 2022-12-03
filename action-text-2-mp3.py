@@ -79,7 +79,7 @@ if __name__ == "__main__":
     #run the program with the file, American accent and path
     for each_file in the_filename:
         each_file = "./" + each_file
-        create_mp3(each_file, "com", os.path.dirname((each_file))
+        create_mp3(each_file, "com", os.path.dirname(each_file))
 
 #     #Debuggging
 #     print(f"the mp3_base_path is {mp3_base_path}")
