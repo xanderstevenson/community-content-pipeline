@@ -1,6 +1,6 @@
 # Community Content Pipeline
 
-## The Source of Truth for ntegration with Asana for the Cisco Community Engagement Content Calendar, as well as creation and storage of .txt and MP3 files
+## The Source of Truth for integration with Asana for the Cisco Community Engagement Content Calendar, as well as creation and storage of .txt and MP3 files
 
 
 ### Step 1
