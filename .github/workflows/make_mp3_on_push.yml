@@ -4,11 +4,10 @@ on:
     # only runs when files in this path are changed, and they must end in .txt
     paths:
       - developer-hub/**.txt
-env:
-  DEVOPS_DIR: devops
+# env:
+#   DEVOPS_DIR: devops
   
 jobs:
-#     uses: xanderstevenson/devops/.github/workflows/txt-2-mp3.yml@main
   build:
     runs-on: ubuntu-latest
 
@@ -20,31 +19,31 @@ jobs:
       - run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-
+          
       - id: file_changes # see which file changed in the push, in '' string output
         uses: trilom/file-changes-action@v1.2.3
         with:
           outout: ''
           fileOutput: ''
-
+       
       - name: test # print modified and added files
         run:    |
           echo 'modified file(s) = ${{ steps.file_changes.outputs.files_modified}}'  
           echo 'added file(s) = ${{ steps.file_changes.outputs.files_added}}'
-
+          
       - name: execute py script # run file
         env:
           MODIFIED_FILE: ${{ steps.file_changes.outputs.files_modified}}
           ADDED_FILE: ${{ steps.file_changes.outputs.files_added }}
         run: |
           python3 action-text-2-mp3.py
-
+          
       - name: Commit files # transfer the new files back into the repository
         run: |
           git config --local user.name "xanderstevenson"
           git add .
           git commit -m "Updating the repository, with mp3 in the ./mp3s folder"
-
+          
       - name: Push changes # push the output folder to your repo
         uses: ad-m/github-push-action@master
         with:
