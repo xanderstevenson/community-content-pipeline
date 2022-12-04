@@ -30,7 +30,7 @@ def create_mp3(text_file, accent, mp3_base_path):
 
             # strip file type extension from name
             file_name = (
-                file_name.replace(".txt", "").replace(".md", "")
+                file_name.replace(".txt", "")
             )
             # save mp3
             mp3_filename = mp3_base_path + '/mp3s/' + file_name + '.mp3'
