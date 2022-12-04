@@ -1,4 +1,4 @@
-# community-content-pipeline
+# Community Content Pipeline
 
 ## Approval and Integration with Asana for the Cisco Community Engagement Content Calendar
 
