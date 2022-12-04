@@ -3,7 +3,7 @@
 ## Approval and Integration with Asana for the Cisco Community Engagement Content Calendar
 
 
-###**Step 1**
+### **Step 1**
 
 If needed, download the [post template](https://github.com/xanderstevenson/community-content-pipeline/blob/main/community-post-template.docx) and adjust as necessary
 
