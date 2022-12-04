@@ -4,11 +4,9 @@ on:
     # only runs when files in this path are changed, and they must end in .txt
     paths:
       - developer-hub/**.txt
-      - developer-hub/**.md
 env:
   DEVOPS_DIR: devops
-
-
+  
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -22,7 +20,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           
-      - id: file_changes # see which file changed in the push
+      - id: file_changes # see which file changed in the push, in '' string output
         uses: trilom/file-changes-action@v1.2.3
         with:
           outout: ''
@@ -30,10 +28,10 @@ jobs:
        
       - name: test
         run:    |
-          echo 'modified file = ${{ steps.file_changes.outputs.files_modified}}'   
+          echo 'modified file(s) = ${{ steps.file_changes.outputs.files_modified}}'  
+          echo 'added file(s) = ${{ steps.file_changes.outputs.files_added}}'
           
       - name: execute py script # run file
-#         if: ${{ steps.file_changes.outputs.files_modified}} != '[]'
         env:
           MODIFIED_FILE: ${{ steps.file_changes.outputs.files_modified}}
           ADDED_FILE: ${{ steps.file_changes.outputs.files_added }}
