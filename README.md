@@ -1,6 +1,6 @@
 # Community Content Pipeline
 
-## Approval and Integration with Asana for the Cisco Community Engagement Content Calendar
+## Integration with Asana for the Cisco Community Engagement Content Calendar, as well as creation and storage of .txt and MP3 files
 
 
 ### Step 1
