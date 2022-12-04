@@ -18,7 +18,7 @@ Write your post. Use Spelling and Grammar check in Word ot other text editor
 
 Step 3
 
-A colleague moderator will review the document, using the Grammar & Spell Checker — LanguageTool extension for the browser to check for spelling and grammar
+A colleague moderator will review the document. A good tool to use, when the document is online, in this repo, in the cCommunity as a draft, etc., is the Grammar & Spell Checker — LanguageTool extension for the browser to check for spelling and grammar
 https://chrome.google.com/webstore/detail/grammar-spell-checker-%E2%80%94-l/oldceeleldhonbafppcapldpdifcinji?hl=en-US
 
 
