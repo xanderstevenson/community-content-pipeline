@@ -8,7 +8,7 @@
 If needed, download the [post template](https://github.com/xanderstevenson/community-content-pipeline/blob/main/community-post-template.docx) and adjust as necessary
 
 
-**Step 2**
+#### **Step 2**
 
 
 Write your post. Use Spelling and Grammar check in Word ot other text editor
