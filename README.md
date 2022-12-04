@@ -1,4 +1,4 @@
-<p align="center"> #Community Content Pipeline </p>
+#<p align="center">Community Content Pipeline </p>
 
 <p><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/community-content-pipeline-black.png?raw=true" width=250) /></p>
 
