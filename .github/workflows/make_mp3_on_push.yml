@@ -1,4 +1,4 @@
-name: Create MP3 on Push to developer-hub
+name: Create MP3 from TXT on Push to a certain directory
 on:
   push:
     # only runs when files in this path are changed, and they must end in .txt
