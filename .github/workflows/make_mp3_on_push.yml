@@ -26,7 +26,7 @@ jobs:
           outout: ''
           fileOutput: ''
        
-      - name: test
+      - name: test # print modified and added files
         run:    |
           echo 'modified file(s) = ${{ steps.file_changes.outputs.files_modified}}'  
           echo 'added file(s) = ${{ steps.file_changes.outputs.files_added}}'
