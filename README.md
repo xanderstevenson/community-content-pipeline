@@ -28,7 +28,7 @@ Once all the edits are finished, find the [directory](https://github.com/xanders
 <img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/Commit.png?raw=true" width=600) />
 
 
-## Step 4
+### Step 4
 
 Now you want to create an MP3 from the post and attach it to the post. There are 3 ways to do this.
 
@@ -43,7 +43,7 @@ Now you want to create an MP3 from the post and attach it to the post. There are
 
 
 
-## Step 5
+### Step 5
 
 The Commit to main will notify those on the mailing list and and close the Asana task.
 
