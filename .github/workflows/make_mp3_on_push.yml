@@ -8,7 +8,8 @@ env:
   DEVOPS_DIR: devops
   
 jobs:
-  uses: xanderstevenson/.github/workflows/txt-2-mp3.yml@main
+  txt-2-mp3:
+    uses: xanderstevenson/.github/workflows/txt-2-mp3.yml@main
 #   build:
 #     runs-on: ubuntu-latest
 
