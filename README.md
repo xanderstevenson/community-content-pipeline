@@ -1,6 +1,6 @@
 # Community Content Pipeline
 
-<p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/community-content-pipeline-black.png?raw=true" width=300) /></p>
+<p align="left"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/community-content-pipeline-black.png?raw=true" width=250) /></p>
 
 ## The Source of Truth for integration with Asana for the Cisco Community Engagement Content Calendar, as well as creation and storage of .txt and MP3 files
 
