@@ -1,5 +1,5 @@
 <p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/community-content-pipeline-teal.png?raw=true" width=300 /></p>
-<h2 align="center">A Source of Truth for  the Cisco Community Engagement Content Calendar, with creation and storage of .txt and MP3 files, as well as integration with Asana.</h1>
+<h2 align="center">A Source of Truth for  the Cisco Community Engagement Content Calendar, with creation and storage of .txt and MP3 files.</h1>
 
 
 ### Step 1
@@ -35,13 +35,5 @@ Now you want to create an MP3 from the post and attach it to the post. There are
 2. If you save your .txt file in your project folder in developer-hub, it will automatically create an 'mp3s' folder in that directory, create your MP3 from the text and place it in there. It will also handle the pull-request/commit for you, so you don't have to worry about that. Now, just download the MP3 and attach it to your blog or article post on the Cisco Community.
 
 3. Use an online text to MP3 converter and attach the results to you post. Attach it to your blog/article on the Community.
-
-
-
-### Step 5
-
-The Commit to main will notify those on the mailing list and and close the Asana task.
-
-
 
 
