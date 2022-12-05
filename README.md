@@ -1,4 +1,4 @@
-<div margin="0px auto" ><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/community-content-pipeline-teal.png?raw=true" width=250) /></div>
+<img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/community-content-pipeline-teal.png?raw=true" width=250 style="display: block; margin: 0 auto") />
 
 ## A Source of Truth for  the Cisco Community Engagement Content Calendar, with creation and storage of .txt and MP3 files, as well as integration with Asana.
 
