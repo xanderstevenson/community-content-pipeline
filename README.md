@@ -8,8 +8,6 @@
 
 Write your post. If needed, download the [post template](https://github.com/xanderstevenson/community-content-pipeline/blob/main/community-post-template.docx) and adjust as necessary. Use the Spelling and Grammar check, under the Review tab, in MS Word, or do the same in another text editor
 
-<img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/Word-Check.png?raw=true" width=800) />
-
 
 ### Step 2
 
