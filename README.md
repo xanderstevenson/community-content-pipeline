@@ -13,10 +13,10 @@ Write your post. If needed, download the [post template](https://github.com/xand
 
 ### Step 2
 
-A colleague moderator will review the document. A good tool to use, when the document is online, in this repo, in the Community as a draft, etc., is the Grammar & Spell Checker — LanguageTool extension for the browser to check for spelling and grammar
+A colleague moderator can review the document. A good tool to use, when the document is online, in this repo, in the Community as a draft, etc., is the Grammar & Spell Checker — LanguageTool extension for the browser to check for spelling and grammar
 https://chrome.google.com/webstore/detail/grammar-spell-checker-%E2%80%94-l/oldceeleldhonbafppcapldpdifcinji?hl=en-US
 
-If changes need to be made, the moderator will make the changes themself or the writer will be notified and make the changes themself. 
+If changes need to be made, the moderator will make the changes or the writer will be notified and make the changes themself. 
 
 
 ### Step 3
