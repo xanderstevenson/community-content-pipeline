@@ -33,7 +33,7 @@ jobs:
           MODIFIED_FILE: ${{ steps.file_changes.outputs.files_modified}}
           ADDED_FILE: ${{ steps.file_changes.outputs.files_added }}
         run: |
-          python3 action-txt-2-mp3.py
+          python3 action_txt_2_mp3.py
           
       - name: Commit files # transfer the new files back into the repository
         run: |
