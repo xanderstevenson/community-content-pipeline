@@ -32,7 +32,7 @@ Now you want to create an MP3 from the post and attach it to the post. There are
 
 1. Use [txt_2_mp3](https://github.com/xanderstevenson/txt_2_mp3) - this will give you more control over the accent you want. When it's finished, upload the MP3 to your project folder in the this repo, under developer-hub and don't forget to attach it to your blog/article on the community.
 
-2. If you save your .txt file in your project folder in developer-hub, it will automatically create an 'mp3s' folder in that directory, create your MP3 from the text and place it in there. It will also handle the pull-request/commit for you, so you don't have to worry about that. Now, just download the MP3 and attach it to your blog or article post on the Cisco Community.
+2. If you save your .txt file in your project folder in developer-hub in this repo, it will automatically create an 'mp3s' folder in that directory, create your MP3 from the text and place it in there. It will also handle the pull-request/commit for you, so you don't have to worry about that. Now, just download the MP3 from the 'mp3s' folder and attach it to your blog or article post on the Cisco Community.
 
 3. Use an online text to MP3 converter and attach the results to you post. Attach it to your blog/article on the Community.
 
