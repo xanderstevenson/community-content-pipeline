@@ -2,6 +2,17 @@
 <h2 align="center">A Source of Truth for  the Cisco Community Engagement Content Calendar, with creation and storage of .txt and MP3 files.</h1>
 
 
+## What this repository accomplishes
+
+a) Provides a template for your blog or article and showd you how to check it for spelling and grammar errors.
+b) Shows how to create a directory and .txt file with your article in it.
+c) An automated workflow will convert the txt file to an MP3 and save it in an 'mp3s' folder in your new directory
+d) Explains how to compress your MP3 into a ZIP and attach to your article or blog
+e) Gives alternate means of generating your MP3, for more control over spoken accent.
+
+The final result is a .txt source of truth in the relative directory in this repo, along with an MP3. This data structure of blogs and articles serves as a record, backup and can eventually serve as an archive for all artivles on the Cisco Community Developer Hub.
+
+
 ### Step 1
 
 
@@ -55,6 +66,6 @@ Now you want to create an MP3 from the post and attach it to the post. There are
 2. Use an online text to MP3 converter and attach the results to you post. Attach it to your blog/article on the Community.
 
 
-**In order to attach your MP3 to the blog post or article, you will need to compress it into a ZIP file.**
+**Remember to In order to attach your MP3 to the blog post or article, you will need to compress it into a ZIP file.**
 
 
