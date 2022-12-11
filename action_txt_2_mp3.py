@@ -6,10 +6,7 @@ import rich_click as click
 from gtts import gTTS
 import ntpath
 import time
-from docx import Document
-import io
-import shutil
-
+import docx2txt
 
 # without this, pygame prints a header in the console
 import contextlib
@@ -17,26 +14,12 @@ import contextlib
 with contextlib.redirect_stdout(None):
     import pygame
 
-    
-    
-def convertDocxToText(path):
-    for d in os.listdir(path):
-        fileExtension=d.split(".")[-1]
-        if fileExtension =="docx":
-            docxFilename = path + d
-            print(docxFilename)
-            document = Document(docxFilename)
-            textFilename = path + d.split(".")[0] + ".txt"
-            with io.open(textFilename,"w", encoding="utf-8") as textFile:
-                for para in document.paragraphs: 
-                    textFile.write(unicode(para.text))    
-    
 # main function
 def create_mp3(docx_filepath, accent, mp3_base_path):
-    text_file = convertDocxToText(docx_filepath)
     language = "en"
-    # load text, convert to mp3, save file and play sample for user
-    convertDocxToText
+    MY_TEXT = docx2txt.process(docx_filepath)
+    with open("Output.txt", "w") as text_file:
+        print(MY_TEXT, file=text_file)   
     try:
         with open(text_file, 'r', encoding='utf-8') as f:
             the_text = f.read()
