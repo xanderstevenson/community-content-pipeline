@@ -39,7 +39,7 @@ Once all the edits are finished, find the [directory](https://github.com/xanders
 
 Paste your article or blog inside. Delete all URLs, links and any other long strings or numbers, which will not sound good while read out loud.
 
-<p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/add-folder-paste-file.png?raw=true" width=900 /></p>
+<p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/add-folder-paste-file.png?raw=true" width=800 /></p>
 
 </br>
 
