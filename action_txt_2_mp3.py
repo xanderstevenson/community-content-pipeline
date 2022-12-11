@@ -30,6 +30,7 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
             for banned_ext in banned_extensions:
                 for word in the_text:
                     if banned_ext in word:
+                        print(word)
                         the_text.replace(word, "")
             
             # conversion magic
