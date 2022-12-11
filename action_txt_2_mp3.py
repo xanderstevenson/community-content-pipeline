@@ -17,11 +17,14 @@ with contextlib.redirect_stdout(None):
 # main function
 def create_mp3(docx_filepath, accent, mp3_base_path):
     language = "en"
+        # strip filename from filepath
+    new_file_name = str(os.path.basename(docx_filepath).rsplit('.', 1)[0])
+    new_file_name = new_file_name.replace('docx', 'txt')
     MY_TEXT = docx2txt.process(docx_filepath)
-    with open("Output.txt", "w") as text_file:
+    with open(new_file_name, "w") as text_file:
         print(MY_TEXT, file=text_file)   
     try:
-        with open("Output.txt", 'r', encoding='utf-8') as f:
+        with open(new_file_name, 'r', encoding='utf-8') as f:
             the_text = f.read()
             
             # conversion magic
