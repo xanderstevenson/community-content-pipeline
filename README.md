@@ -27,7 +27,7 @@ Once all the edits are finished, find the [directory](https://github.com/xanders
 
 Now you want to create an MP3 from the post and attach it to the post. There are 3 ways to do this.
 
-* With either step, you'll need to create a .txt file and paste in your post. Remove all URLs, links and any other long strings or numbintegration with Asanaers, which will not sound good while read out loud. Also, in order to attach your MP3 to the blog post or article, you will need to compress it into a ZIP file.
+* With either step, you'll need to create a .txt file and paste in your post. Remove all URLs, links and any other long strings or numbers, which will not sound good while read out loud. Also, in order to attach your MP3 to the blog post or article, you will need to compress it into a ZIP file.
 
 
 1. Use [txt_2_mp3](https://github.com/xanderstevenson/txt_2_mp3) - this will give you more control over the accent you want. When it's finished, upload the MP3 to your project folder in the this repo, under developer-hub and don't forget to attach it to your blog/article on the community.
