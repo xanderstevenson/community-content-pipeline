@@ -1,0 +1,12 @@
+ 
+DevSecOps Defined
+ 
+
+alexstev_0-1666962856110.png
+
+Basic DevOps Lifecycle
+
+
+6. Enterprise Strategy Group (ESG) Research Report: The Benefits of a Mature DevSecOps Program
+
+https://www.appdynamics.com/resources/reports/benefits-of-mature-devsecops-program?utm_source=cisco&utm_medium=referral&utm_campaign=cisco-security_spotlight_121820_security-tetration
