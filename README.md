@@ -2,7 +2,7 @@
 <h2 align="center">A Source of Truth for  the Cisco Community Engagement Content Calendar, with creation and storage of .txt and MP3 files.</h1>
 
 
-## What this repository accomplishes
+### What this repository accomplishes
 
 a) Provides a template for your blog or article and showd you how to check it for spelling and grammar errors </br>
 b) Shows how to create a directory and .txt file with your article in it </br>
