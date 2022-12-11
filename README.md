@@ -22,31 +22,37 @@ If changes need to be made, the moderator will make the changes or the writer wi
 Once all the edits are finished, find the [directory](https://github.com/xanderstevenson/community-content-pipeline/tree/main/developer-hub) where your article/blog will be, and create a folder and new file with a .txt extension. 
 
 
-<p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/create-file.png?raw=true" width=700 /></p>
+<p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/create-file.png?raw=true" width=900 /></p>
 
 </br>
 
 Paste your article or blog inside. Delete all URLs, links and any other long strings or numbers, which will not sound good while read out loud.
 
-<p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/add-folder-paste-file.png?raw=true" width=700 /></p>
+<p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/add-folder-paste-file.png?raw=true" width=900 /></p>
 
 </br>
 
-'Create a new branch for this commit and start a pull request.' The temporary branch, with 'patch' in the name is automatically generated for you.
+At the bottom of the page, comment and commit to the 'main' branch. This will start a workflow to create a folder called 'mp3s' in the same directory and place the mp3 there.
 
-<p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/comment-commit.png?raw=true" width=700 /></p>
+<p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/comment-commit.png?raw=true" width=500 /></p>
+
+</br>
+
+Now, just download the MP3 from the 'mp3s' folder, compress it into a ZIP file, and attach it to your blog or article post on the Cisco Community!
 
 
-### Step 4
+**In order to attach your MP3 to the blog post or article, you will need to compress it into a ZIP file.**
+
+
+
+### Alternate ways to create your MP3.
 
 Now you want to create an MP3 from the post and attach it to the post. There are 3 ways to do this.
 
 
 1. Use [txt_2_mp3](https://github.com/xanderstevenson/txt_2_mp3) - this will give you more control over the accent you want. When it's finished, upload the MP3 to your project folder in the this repo, under developer-hub and don't forget to attach it to your blog/article on the community.
 
-2. As described in Step 3 above, if you save your .txt file in your project folder in developer-hub in this repo, it will automatically create an 'mp3s' folder in that directory, create your MP3 from the text and place it in there. It will also handle the pull-request/commit for you, so you don't have to worry about that. Now, just download the MP3 from the 'mp3s' folder and attach it to your blog or article post on the Cisco Community.
-
-3. Use an online text to MP3 converter and attach the results to you post. Attach it to your blog/article on the Community.
+2. Use an online text to MP3 converter and attach the results to you post. Attach it to your blog/article on the Community.
 
 
 **In order to attach your MP3 to the blog post or article, you will need to compress it into a ZIP file.**
