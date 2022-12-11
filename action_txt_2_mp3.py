@@ -26,10 +26,11 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
     try:
         with open(txt_filepath, 'r', encoding='utf-8') as f:
             the_text = f.read()
-            
-            for word in the_text:
-                if ".png" in word:
-                    print(word)
+            banned_extensions = [".png", ".jpg", ".gif", ".jpeg"]
+            for banned_ext in banned_extensions:
+                for word in the_text:
+                    if banned_ext in word:
+                        the_text.replace(word, "")
             
             # conversion magic
             mp3 = gTTS(the_text, lang=language, tld=accent)
