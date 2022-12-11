@@ -19,7 +19,16 @@ If changes need to be made, the moderator will make the changes or the writer wi
 ### Step 3
 
 
-Once all the edits are finished, find the [directory](https://github.com/xanderstevenson/community-content-pipeline/tree/main/developer-hub) where your article/blog will be, create a folder, add your post, in docx or similar format and commit it, checking 'Create a new branch for this commit and start a pull request.' The temporary branch, with 'patch' in the name is automatically generated for you.
+Once all the edits are finished, find the [directory](https://github.com/xanderstevenson/community-content-pipeline/tree/main/developer-hub) where your article/blog will be, and create a folder and new file with a .txt extension. Paste your article or blog inside.
+
+
+<p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/add-folder-paste-file.png?raw=true" width=300 /></p>
+
+
+<p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/create-file.png?raw=true" width=300 /></p>
+
+
+'Create a new branch for this commit and start a pull request.' The temporary branch, with 'patch' in the name is automatically generated for you.
 
 
 
