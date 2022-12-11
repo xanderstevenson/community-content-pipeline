@@ -40,7 +40,7 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
             mp3_filename = mp3_base_path + '/mp3s/' + file_name + '.mp3'
             
             for i in range(1,6):
-                if os.path.exists(mp3_filename);
+                if os.path.exists(mp3_filename):
                     mp3_filename.append(i)
                 
             mp3.save(mp3_filename)
