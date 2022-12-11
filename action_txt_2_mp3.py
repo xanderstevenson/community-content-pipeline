@@ -37,11 +37,13 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
                 file_name.replace(".txt", "")
             )
             # save mp3
-            mp3_filename = mp3_base_path + '/mp3s/' + file_name + '.mp3'
+            mp3_filename = mp3_base_path + '/mp3s/' + file_name 
             
             for i in range(1,6):
                 if os.path.exists(mp3_filename):
                     mp3_filename = mp3_filename + str(i)
+                    
+            mp3_filename += '.mp3'
                 
             mp3.save(mp3_filename)
             
