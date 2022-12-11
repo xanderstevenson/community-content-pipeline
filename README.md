@@ -51,6 +51,8 @@ At the bottom of the page, comment and commit to the 'main' branch. This will st
 
 Now, just download the MP3 from the 'mp3s' folder, compress it into a ZIP file, and attach it to your blog or article post on the Cisco Community!
 
+You can upload a .docx version of your article or blog as well. However, this will not trigger the automated workflow to create the MP3.
+
 
 **In order to attach your MP3 to the blog post or article, you will need to compress it into a ZIP file.**
 
