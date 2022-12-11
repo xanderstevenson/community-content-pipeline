@@ -21,10 +21,11 @@ If changes need to be made, the moderator will make the changes or the writer wi
 
 Once all the edits are finished, find the [directory](https://github.com/xanderstevenson/community-content-pipeline/tree/main/developer-hub) where your article/blog will be, and create a folder and new file with a .txt extension. 
 
+Paste your article or blog inside. Delete all URLs, links and any other long strings or numbers, which will not sound good while read out loud.
 
 <p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/add-folder-paste-file.png?raw=true" width=700 /></p>
 
-Paste your article or blog inside. Delete all URLs, links and any other long strings or numbers, which will not sound good while read out loud.
+
 
 
 <p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/create-file.png?raw=true" width=700 /></p>
