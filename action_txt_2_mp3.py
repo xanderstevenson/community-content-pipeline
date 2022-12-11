@@ -28,7 +28,7 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
             the_text = f.read()
             
             for word in the_text:
-                if ".png' in word:
+                if ".png" in word:
                     print(word)
             
             # conversion magic
