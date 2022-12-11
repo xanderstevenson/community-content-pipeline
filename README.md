@@ -58,7 +58,7 @@ Now, just download the MP3 from the 'mp3s' folder, compress it into a ZIP file, 
 
 ### Alternate ways to create your MP3.
 
-* With either way, don't forget to commit your .txt file as a backup in the repo.
+* With either way, don't forget to commit your .txt and MP3 files in the repo, to serve as backups.
 
 
 1. Use [txt_2_mp3](https://github.com/xanderstevenson/txt_2_mp3) - this will give you more control over the accent you want. When it's finished, upload the MP3 to your project folder in the this repo, under developer-hub and don't forget to attach it to your blog/article on the community.
