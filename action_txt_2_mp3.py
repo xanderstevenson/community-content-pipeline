@@ -19,7 +19,7 @@ def create_mp3(docx_file, accent, mp3_base_path):
     language = "en"
     # convert docx to txt
     MY_TEXT = docx2txt.process(docx_file)
-    new_name_text_file = text_file.replace('docx','')
+    new_name_text_file = docx2txt.replace('docx','')
     with open(f"{new_name_text_file}.txt", "w") as text_file:
         print(MY_TEXT, file=text_file)
     # load text, convert to mp3, save file and play sample for user
