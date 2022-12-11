@@ -1,0 +1,11 @@
+In this article, we will learn how to convert a docx file into plain text and then save the content to txt file.
+
+For the conversion, we are going to use a third party package named docx2txt
+
+This tool attempts to generate equivalent plain text files from Microsoft .docx documents, preserving some formatting and document information (which MS text conversion drops) along with appropriate character conversions for a good (ASCII or utf-8) text experience.
+
+It is a platform independent solution consisting of (core) Perl and (wrapper) Unix/Windows shell scripts and a configuration file to control the output text appearance to a fair extent. It can very conveniently be used to build a Web based docx document conversion service.
+
+So first install the package on your machine using pip or any package manager.
+
+																pip install docx2txt
