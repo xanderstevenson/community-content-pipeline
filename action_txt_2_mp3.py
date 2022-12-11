@@ -6,7 +6,7 @@ import rich_click as click
 from gtts import gTTS
 import ntpath
 import time
-from python-docx import Document
+from docx import Document
 import io
 import shutil
 
