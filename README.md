@@ -7,7 +7,7 @@
 **a)** Provides a template for your blog or article and shows you how to check it for spelling and grammar errors </br>
 **b)** Shows how to create a directory and .txt file with your article in it </br>
 **c)** An automated workflow will convert the txt file to an MP3 and save it in an 'mp3s' folder in your new directory </br>
-**d)** Explains how to compress your MP3 into a ZIP and attach to your article or blog </br>
+**d)** Explains the need to compress your MP3 into a ZIP in order to attach it to your article or blog </br>
 **e)** Gives alternate means of generating your MP3, for more control over spoken accent. </br>
 
 The final result is a .txt source of truth in the relative directory in this repo, along with an MP3. This data structure of blogs and articles serves as a record, backup and can eventually serve as an archive for all artivles on the Cisco Community Developer Hub.
