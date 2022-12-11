@@ -22,8 +22,8 @@ def create_mp3(docx_file, accent, mp3_base_path):
     # strip filename from filepath
 #     docx_file_name = str(os.path.basename(docx_file).rsplit('.', 1)[0])
     new_name_text_file = docx_file.replace('docx','txt')
-    with open(new_name_text_file, "w") as text_file:
-        print(MY_TEXT, file=text_file)
+    with open(new_name_text_file, "w") as txt_file:
+        print(MY_TEXT, text_file=txt_file)
     # load text, convert to mp3, save file and play sample for user
     try:
         with open(text_file, 'r', encoding='utf-8') as f:
