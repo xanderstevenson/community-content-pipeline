@@ -24,17 +24,17 @@ Once all the edits are finished, find the [directory](https://github.com/xanders
 
 <p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/create-file.png?raw=true" width=700 /></p>
 
+</br>
 
 Paste your article or blog inside. Delete all URLs, links and any other long strings or numbers, which will not sound good while read out loud.
 
 <p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/add-folder-paste-file.png?raw=true" width=700 /></p>
 
-
-
-
+</br>
 
 'Create a new branch for this commit and start a pull request.' The temporary branch, with 'patch' in the name is automatically generated for you.
 
+<p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/comment-commit.png?raw=true" width=700 /></p>
 
 
 ### Step 4
