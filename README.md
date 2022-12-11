@@ -4,7 +4,7 @@
 
 ### What this repository accomplishes
 
-**a)** Provides a template for your blog or article and showd you how to check it for spelling and grammar errors </br>
+**a)** Provides a template for your blog or article and shows you how to check it for spelling and grammar errors </br>
 **b)** Shows how to create a directory and .txt file with your article in it </br>
 **c)** An automated workflow will convert the txt file to an MP3 and save it in an 'mp3s' folder in your new directory </br>
 **d)** Explains how to compress your MP3 into a ZIP and attach to your article or blog </br>
