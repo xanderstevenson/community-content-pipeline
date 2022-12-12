@@ -1,16 +1,16 @@
 <p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/community-content-pipeline-teal-transparent.png?raw=true" width=300 /></p>
-<h2 align="center">A Source of Truth for  the Cisco Community Engagement Content Calendar, with creation and storage of .txt and MP3 files.</h1>
+<h2 align="center">A Source of Truth for  the Cisco Community Engagement Content Calendar, with creation and storage of Text and MP3 files.</h1>
 
 
 ### What this repository accomplishes
 
 **a)** Provides a template for your blog or article and shows you how to check it for spelling and grammar errors </br>
-**b)** Shows how to create a directory and .txt file with your article in it </br>
-**c)** An automated workflow will convert the txt file to an MP3 and save it in an 'mp3s' folder in your new directory </br>
+**b)** Shows how to create a directory and text file (.docx or .txt) with your article in it </br>
+**c)** An automated workflow will convert the text file to an MP3 and save it in an 'mp3s' folder in your new directory </br>
 **d)** Explains the need to compress your MP3 into a ZIP in order to attach it to your article or blog </br>
 **e)** Gives alternate means of generating your MP3, for more control over spoken accent. </br>
 
-The final result is a .txt source of truth in the relative directory in this repo, along with an MP3. This data structure of blogs and articles serves as a record, backup and can eventually serve as an archive for all artivles on the Cisco Community Developer Hub.
+The final result is a text source of truth in the relative directory in this repo, along with an MP3. This data structure of blogs and articles serves as a record, backup and can eventually serve as an archive for all artivles on the Cisco Community Developer Hub.
 
 
 ### Step 1
@@ -30,14 +30,14 @@ If changes need to be made, the moderator will make the changes or the writer wi
 ### Step 3
 
 
-Once all the edits are finished, find the [directory](https://github.com/xanderstevenson/community-content-pipeline/tree/main/developer-hub) where your article/blog will be, and create a folder and new file with a .txt extension. 
+Once all the edits are finished, find the [directory](https://github.com/xanderstevenson/community-content-pipeline/tree/main/developer-hub) where your article/blog will be, and create a folder and new file with a .docx ot .txt extension. 
 
 
 <p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/create-file.png?raw=true" width=900 /></p>
 
 </br>
 
-Paste your article or blog inside. Delete all URLs, links and any other long strings or numbers, which will not sound good while read out loud.
+**PASTE your article or blog inside -- uploading a .docx file will not create an MP3 and the .docx file will not be readable in the bowser.** Delete all URLs, links and any other long strings or numbers, which will not sound good while read out loud.
 
 <p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/add-folder-paste-file.png?raw=true" width=800 /></p>
 
@@ -51,7 +51,6 @@ At the bottom of the page, comment and commit to the 'main' branch. This will st
 
 Now, just download the MP3 from the 'mp3s' folder, compress it into a ZIP file, and attach it to your blog or article post on the Cisco Community!
 
-You can upload a .docx version of your article or blog as well. However, this will not trigger the automated workflow to create the MP3.
 
 
 **In order to attach your MP3 to the blog post or article, you will need to compress it into a ZIP file.**
@@ -60,7 +59,7 @@ You can upload a .docx version of your article or blog as well. However, this wi
 
 ### Alternate ways to create your MP3.
 
-* With either way, don't forget to commit your .txt and MP3 files in the repo, to serve as backups.
+* With either way, don't forget to paste and commit your .docx or .txt and MP3 files in the repo, to serve as backups.
 
 
 1. Use [txt_2_mp3](https://github.com/xanderstevenson/txt_2_mp3) - this will give you more control over the accent you want. When it's finished, upload the MP3 to your project folder in the this repo, under developer-hub and don't forget to attach it to your blog/article on the community.
