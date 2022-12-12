@@ -37,7 +37,7 @@ Once all the edits are finished, find the [directory](https://github.com/xanders
 
 </br>
 
-**PASTE your article or blog inside -- *uploading* a .docx file will not create an MP3 and the .docx file will not be readable in the bowser.** Delete all URLs, links and any other long strings or numbers, which will not sound good while read out loud.
+**PASTE your article or blog inside -- *uploading* a .docx file will not create an MP3 and the .docx file will not be readable in the browser.** Delete all URLs, links and any other long strings or numbers, which will not sound good while read out loud.
 
 <p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/add-folder-paste-file.png?raw=true" width=800 /></p>
 
