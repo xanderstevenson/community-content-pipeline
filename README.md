@@ -5,7 +5,7 @@
 ### What this repository accomplishes
 
 **a)** Provides a template for your blog or article and shows you how to check it for spelling and grammar errors </br>
-**b)** Shows how to create a directory and text file (.docx or .txt) with your article in it </br>
+**b)** Shows how to create a directory and text file (.txt) with your article in it </br>
 **c)** An automated workflow will convert the text file to an MP3 and save it in an 'mp3s' folder in your new directory </br>
 **d)** Explains the need to compress your MP3 into a ZIP in order to attach it to your article or blog </br>
 **e)** Gives alternate means of generating your MP3, for more control over spoken accent. </br>
@@ -37,7 +37,7 @@ Once all the edits are finished, find the [directory](https://github.com/xanders
 
 </br>
 
-**PASTE your article or blog inside -- *uploading* a .docx file will not create an MP3 and the .docx file will not be readable in the browser.** Delete all URLs, links and any other long strings or numbers, which will not sound good while read out loud.
+**PASTE your article or blog inside** Delete all URLs, links and any other long strings or numbers, which will not sound good while read out loud.
 
 <p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/add-folder-paste-file.png?raw=true" width=800 /></p>
 
