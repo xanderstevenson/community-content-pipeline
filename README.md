@@ -30,7 +30,7 @@ If changes need to be made, the moderator will make the changes or the writer wi
 ### Step 3
 
 
-Once all the edits are finished, find the [directory](https://github.com/xanderstevenson/community-content-pipeline/tree/main/developer-hub) where your article/blog will be, and create a folder and new file with a .docx ot .txt extension. 
+Once all the edits are finished, find the [directory](https://github.com/xanderstevenson/community-content-pipeline/tree/main/developer-hub) where your article/blog will be, and create a folder and new file with a .txt extension. 
 
 
 <p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/create-file.png?raw=true" width=900 /></p>
