@@ -21,11 +21,9 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
 #     new_file_name = str(os.path.basename(docx_filepath).rsplit('.', 1)[0])
     docx_filepath = txt_filepath.replace('docx', 'txt')
     MY_TEXT = docx2txt.process(txt_filepath)
-#     txt_filepath = txt_filepath.replace('docx', 'txt')
     with open(docx_filepath, "w") as text_file:
         print(MY_TEXT, file=text_file)   
-    for word in docx_filepath:
-        print(word)
+
     try:    
         with open(docx_filepath, 'r', encoding='utf-8') as f:
             the_text = f.read()
@@ -36,12 +34,13 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
             # strip filename from filepath
             file_name = str(os.path.basename(docx_filepath).rsplit('.', 1)[0])
 
-            # strip file type extension from name
-#             file_name = (
-#                 file_name.replace(".txt", "")
-#             )
+            print(f"the filename is {file_name}")
+            
+            
             # save mp3
             mp3_filename = mp3_base_path + '/mp3s/' + file_name 
+            
+            print(f"the mp3_filename is {mp3_file_name}")
             
             # if mp3 file exists, add a number at the end, but before '.mp3'
             for i in range(1,6):
