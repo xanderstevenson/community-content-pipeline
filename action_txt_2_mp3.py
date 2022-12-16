@@ -16,25 +16,35 @@ with contextlib.redirect_stdout(None):
 
 # main function
 def create_mp3(txt_filepath, accent, mp3_base_path):
-    language = "en"
+    docx_filepath = txt_filepath.replace('docx', 'txt')
       # strip filename from filepath
 #     new_file_name = str(os.path.basename(docx_filepath).rsplit('.', 1)[0])
 #     new_file_name = docx_filepath.replace('docx', 'txt')
-#     MY_TEXT = docx2txt.process(txt_filepath)
-#     txt_filepath = txt_filepath.replace('docx', 'txt')
-#     with open(txt_filepath, "w") as text_file:
-#         print(MY_TEXT, file=text_file)   
+    try:
+        MY_TEXT = docx2txt.process(txt_filepath)
+        with open(docx_filepath, "w") as text_file:
+            print(MY_TEXT, file=text_file)   
+
+    # handle exception (exits program)
+    except FileNotFoundError:
+        print(
+            "\n\nERROR\n\nA file named '{}' does not exist. Please try again.\n\n".format(
+                text_file
+            )
+        )
+
+
     try:
             # open and read .txt file
             
-        with open(txt_filepath, 'r', encoding='utf-8') as f:
+        with open(docx_filepath, 'r', encoding='utf-8') as f:
             the_text = f.read()
             
             # conversion magic
             mp3 = gTTS(the_text, lang=language, tld=accent)
        
             # strip filename from filepath
-            file_name = str(os.path.basename(txt_filepath).rsplit('.', 1)[0])
+            file_name = str(os.path.basename(docx_filepath).rsplit('.', 1)[0])
 
             # strip file type extension from name
 #             file_name = (
@@ -59,13 +69,10 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
             )
             
     # handle exception (exits program)
-    except FileNotFoundError:
-        print(
-            "\n\nERROR\n\nA file named '{}' does not exist. Please try again.\n\n".format(
-                text_file
-            )
-        )
-
+    except Exception:
+        pass
+    
+    
 if __name__ == "__main__":
    
     #import environmental variable from the GitHub actions workflow
