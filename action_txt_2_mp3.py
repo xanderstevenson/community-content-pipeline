@@ -33,8 +33,8 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
             )
         )
 
+#     try:
 
-    try:
             # open and read .txt file
             
         with open(docx_filepath, 'r', encoding='utf-8') as f:
@@ -69,8 +69,8 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
             )
             
     # handle exception (exits program)
-    except Exception:
-        pass
+#     except Exception:
+#         pass
     
     
 if __name__ == "__main__":
