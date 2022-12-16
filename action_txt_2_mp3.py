@@ -15,32 +15,33 @@ with contextlib.redirect_stdout(None):
     import pygame
 
 # main function
-def create_mp3(docx_filepath, accent, mp3_base_path):
+def create_mp3(txt_filepath, accent, mp3_base_path):
     language = "en"
       # strip filename from filepath
 #     new_file_name = str(os.path.basename(docx_filepath).rsplit('.', 1)[0])
-#     docx_filepath = txt_filepath.replace('docx', 'txt')
+#     new_file_name = docx_filepath.replace('docx', 'txt')
 #     MY_TEXT = docx2txt.process(txt_filepath)
-#     with open(docx_filepath, "w") as text_file:
+#     txt_filepath = txt_filepath.replace('docx', 'txt')
+#     with open(txt_filepath, "w") as text_file:
 #         print(MY_TEXT, file=text_file)   
-
-    try:    
-        with open(docx_filepath, 'r', encoding='utf-8') as f:
+    try:
+            # open and read .txt file
+            
+        with open(txt_filepath, 'r', encoding='utf-8') as f:
             the_text = f.read()
             
             # conversion magic
             mp3 = gTTS(the_text, lang=language, tld=accent)
        
             # strip filename from filepath
-            file_name = str(os.path.basename(docx_filepath).rsplit('.', 1)[0])
+            file_name = str(os.path.basename(txt_filepath).rsplit('.', 1)[0])
 
-            print(f"the filename is {file_name}")
-            
-            
+            # strip file type extension from name
+#             file_name = (
+#                 file_name.replace(".txt", "")
+#             )
             # save mp3
             mp3_filename = mp3_base_path + '/mp3s/' + file_name 
-            
-            print(f"the mp3_filename is {mp3_filename}")
             
             # if mp3 file exists, add a number at the end, but before '.mp3'
             for i in range(1,6):
@@ -78,7 +79,7 @@ if __name__ == "__main__":
     else:
         the_filename = the_added_filename
     the_filename = str(the_filename)
-#     print(f"the filename is {the_filename}")
+    print(f"the filename is {the_filename}")
     
     #handle multiple .txt files added or modified
     for each_file in the_filename.split(','):
@@ -87,7 +88,7 @@ if __name__ == "__main__":
         #strip the filename and get the path where the file changed
         mp3_base_path = os.path.dirname(each_file)
         mp3_base_path = str(mp3_base_path)
-#         print(f"the mp3_base_path is {mp3_base_path}")
+        print(f"the mp3_base_path is {mp3_base_path}")
 
         # if the 'mp3s' directory does not exist, create it
         if not os.path.exists(mp3_base_path + '/mp3s/'):
