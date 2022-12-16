@@ -24,9 +24,9 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
 #     txt_filepath = txt_filepath.replace('docx', 'txt')
     with open(docx_filepath, "w") as text_file:
         print(MY_TEXT, file=text_file)   
-    try:
-            # open and read .txt file
-            
+    for word in docx_filepath:
+        print(word)
+    try:    
         with open(docx_filepath, 'r', encoding='utf-8') as f:
             the_text = f.read()
             
@@ -79,7 +79,7 @@ if __name__ == "__main__":
     else:
         the_filename = the_added_filename
     the_filename = str(the_filename)
-    print(f"the filename is {the_filename}")
+#     print(f"the filename is {the_filename}")
     
     #handle multiple .txt files added or modified
     for each_file in the_filename.split(','):
@@ -88,7 +88,7 @@ if __name__ == "__main__":
         #strip the filename and get the path where the file changed
         mp3_base_path = os.path.dirname(each_file)
         mp3_base_path = str(mp3_base_path)
-        print(f"the mp3_base_path is {mp3_base_path}")
+#         print(f"the mp3_base_path is {mp3_base_path}")
 
         # if the 'mp3s' directory does not exist, create it
         if not os.path.exists(mp3_base_path + '/mp3s/'):
