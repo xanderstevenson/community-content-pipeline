@@ -22,7 +22,7 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
 #     new_file_name = docx_filepath.replace('docx', 'txt')
     try:
         MY_TEXT = docx2txt.process(txt_filepath)
-        with open(docx_filepath, "w", encoding='utf-8') as text_file:
+        with open(docx_filepath, "w", encoding='latin-1"') as text_file:
             print(MY_TEXT, file=text_file)   
 
     # handle exception (exits program)
@@ -37,7 +37,7 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
 
             # open and read .txt file
             
-        with open(docx_filepath, 'r', encoding='utf-8') as f:
+        with open(docx_filepath, 'r', encoding='latin-1"') as f:
             the_text = f.read()
             
             # conversion magic
