@@ -4,7 +4,7 @@ on:
     # only runs when files in this path are changed, and they must end in .txt
     paths:
       - developer-hub/**.txt
-#       - developer-hub/**.docx
+      - developer-hub/**.docx
 jobs:
   build:
     runs-on: ubuntu-latest
