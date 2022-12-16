@@ -40,7 +40,7 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
             # save mp3
             mp3_filename = mp3_base_path + '/mp3s/' + file_name 
             
-            print(f"the mp3_filename is {mp3_file_name}")
+            print(f"the mp3_filename is {mp3_filename}")
             
             # if mp3 file exists, add a number at the end, but before '.mp3'
             for i in range(1,6):
