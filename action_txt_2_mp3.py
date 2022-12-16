@@ -41,7 +41,7 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
         the_text = f.read()
 
         # conversion magic
-        mp3 = gTTS(the_text, lang=language, tld=accent)
+        mp3 = gTTS(the_text, lang="en", tld=accent)
 
         # strip filename from filepath
         file_name = str(os.path.basename(docx_filepath).rsplit('.', 1)[0])
