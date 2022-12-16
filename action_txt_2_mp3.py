@@ -37,37 +37,37 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
 
             # open and read .txt file
             
-        with open(docx_filepath, 'r', encoding='latin-1"') as f:
-            the_text = f.read()
-            
-            # conversion magic
-            mp3 = gTTS(the_text, lang=language, tld=accent)
-       
-            # strip filename from filepath
-            file_name = str(os.path.basename(docx_filepath).rsplit('.', 1)[0])
+    with open(docx_filepath, 'r', encoding='latin-1"') as f:
+        the_text = f.read()
 
-            # strip file type extension from name
+        # conversion magic
+        mp3 = gTTS(the_text, lang=language, tld=accent)
+
+        # strip filename from filepath
+        file_name = str(os.path.basename(docx_filepath).rsplit('.', 1)[0])
+
+        # strip file type extension from name
 #             file_name = (
 #                 file_name.replace(".txt", "")
 #             )
-            # save mp3
-            mp3_filename = mp3_base_path + '/mp3s/' + file_name 
-            
-            # if mp3 file exists, add a number at the end, but before '.mp3'
-            for i in range(1,6):
-                if os.path.exists(mp3_filename + '.mp3'):
-                    mp3_filename = mp3_filename + '-' + str(i)
-            mp3_filename += '.mp3'
-            
-            #save mp3
-            mp3.save(mp3_filename)
-            
-            # Alert use of success and location of mp3
-            click.secho(
-                f"\n\nAn MP3 file named '{file_name}' created.\n\n",
-                fg="green",
-            )
-            
+        # save mp3
+        mp3_filename = mp3_base_path + '/mp3s/' + file_name 
+
+        # if mp3 file exists, add a number at the end, but before '.mp3'
+        for i in range(1,6):
+            if os.path.exists(mp3_filename + '.mp3'):
+                mp3_filename = mp3_filename + '-' + str(i)
+        mp3_filename += '.mp3'
+
+        #save mp3
+        mp3.save(mp3_filename)
+
+        # Alert use of success and location of mp3
+        click.secho(
+            f"\n\nAn MP3 file named '{file_name}' created.\n\n",
+            fg="green",
+        )
+
     # handle exception (exits program)
 #     except Exception:
 #         pass
