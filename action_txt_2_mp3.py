@@ -15,14 +15,14 @@ with contextlib.redirect_stdout(None):
     import pygame
 
 # main function
-def create_mp3(txt_filepath, accent, mp3_base_path):
+def create_mp3(docx_filepath, accent, mp3_base_path):
     language = "en"
       # strip filename from filepath
 #     new_file_name = str(os.path.basename(docx_filepath).rsplit('.', 1)[0])
-    docx_filepath = txt_filepath.replace('docx', 'txt')
-    MY_TEXT = docx2txt.process(txt_filepath)
-    with open(docx_filepath, "w") as text_file:
-        print(MY_TEXT, file=text_file)   
+#     docx_filepath = txt_filepath.replace('docx', 'txt')
+#     MY_TEXT = docx2txt.process(txt_filepath)
+#     with open(docx_filepath, "w") as text_file:
+#         print(MY_TEXT, file=text_file)   
 
     try:    
         with open(docx_filepath, 'r', encoding='utf-8') as f:
