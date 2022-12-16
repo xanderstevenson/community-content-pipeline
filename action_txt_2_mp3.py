@@ -20,10 +20,10 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
       # strip filename from filepath
 #     new_file_name = str(os.path.basename(docx_filepath).rsplit('.', 1)[0])
 #     new_file_name = docx_filepath.replace('docx', 'txt')
-#     MY_TEXT = docx2txt.process(txt_filepath)
-#     txt_filepath = txt_filepath.replace('docx', 'txt')
-#     with open(txt_filepath, "w") as text_file:
-#         print(MY_TEXT, file=text_file)   
+    MY_TEXT = docx2txt.process(txt_filepath)
+    txt_filepath = txt_filepath.replace('docx', 'txt')
+    with open(txt_filepath, "w") as text_file:
+        print(MY_TEXT, file=text_file)   
     try:
             # open and read .txt file
             
