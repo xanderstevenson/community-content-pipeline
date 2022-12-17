@@ -34,9 +34,9 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
 
         # Weed out blank lines with filter
         lines = filter(lambda x: not x.isspace(), lines)
-        for line in lines:
-            if "http" in line:
-                del line
+#         for line in lines:
+#             if "http" in line:
+#                 del line
                 
 
         # Write
