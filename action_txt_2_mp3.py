@@ -7,6 +7,7 @@ from gtts import gTTS
 import ntpath
 import time
 import docx2txt
+import fileinput
 
 # without this, pygame prints a header in the console
 import contextlib
@@ -22,13 +23,14 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
 #     new_file_name = docx_filepath.replace('docx', 'txt')
     try:
         MY_TEXT = docx2txt.process(txt_filepath)
-        with open(docx_filepath, "w") as text_file: 
+        with open(docx_filepath, "w") as text_file:
+            for line in fileinput.FileInput(text_file,inplace=1):
+                if line.rstrip():
             print(MY_TEXT, file=text_file)   
 
-        with open(docx_filepath,'w') as file:
-            for line in file:
-                if not line.isspace():
-                    file.write(line)         
+        for line in fileinput.FileInput("file",inplace=1):
+            if line.rstrip():
+                print line    
             
             
     # handle exception (exits program)
