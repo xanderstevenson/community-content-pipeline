@@ -24,13 +24,22 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
     try:
         MY_TEXT = docx2txt.process(txt_filepath)
         with open(docx_filepath, "w") as text_file:
-            for line in fileinput.FileInput(text_file,inplace=1):
-                if line.rstrip():
             print(MY_TEXT, file=text_file)   
+            
+        # Read lines as a list
+        fh = open(docx_filepath, "r")
+        lines = fh.readlines()
+        fh.close()
 
-        for line in fileinput.FileInput("file",inplace=1):
-            if line.rstrip():
-                print line    
+        # Weed out blank lines with filter
+        lines = filter(lambda x: not x.isspace(), lines)
+
+        # Write
+        fh = open(docx_filepath, "w")
+        fh.write("".join(lines))
+        # should also work instead of joining the list:
+        # fh.writelines(lines)
+        fh.close()
             
             
     # handle exception (exits program)
