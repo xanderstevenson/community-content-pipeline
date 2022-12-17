@@ -10,7 +10,7 @@
 - Your original .docx document
 - A .txt version of your document
 - An MP3, inside of an 'mp3s' sub-folder</br>
-- 
+
 **d)** Explains the need to compress your MP3 into a ZIP in order to attach it to your article or blog </br>
 **e)** Gives alternate means of generating your MP3, for more control over spoken accent. </br>
 
