@@ -1,4 +1,3 @@
-https://github.com/
 DevSecOps Defined 2
  By Alex Stevenson
 Where We Are Now
