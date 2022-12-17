@@ -34,9 +34,9 @@ If changes need to be made, the moderator will make the changes or the writer wi
 ### Step 3
 
 
-Once all the edits are finished, find the [directory](https://github.com/xanderstevenson/community-content-pipeline/tree/main/developer-hub) where your article/blog will be, and create a folder and new file with a .docx extension. 
+Once all the edits are finished, find the [directory](https://github.com/xanderstevenson/community-content-pipeline/tree/main/developer-hub) where your article/blog will be. 
 
-**Upload your article or blog**
+**Upload your article or blog in .docx format**
 <p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/create-file.png?raw=true" width=900 /></p>
 
 At the bottom of the page, comment and commit to the 'main' branch. This will start a workflow to create a folder called 'mp3s' in the same directory and place the mp3 there.
