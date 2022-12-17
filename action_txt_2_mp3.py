@@ -20,23 +20,30 @@ import re
 def create_mp3(txt_filepath, accent, mp3_base_path):
     # rename docx to text
     docx_filepath = txt_filepath.replace('docx', 'txt')
+    
+    file_name = str(os.path.basename(docx_filepath).rsplit(".", 1)[0])
+    txt_dirname = mp3_base_path + f"/{file_name}/"
+    if not os.path.exists(txt_dirname):
+        os.makedirs(txt_dirname)
+        time.sleep(1)
+    txt_file = txt_dirname + f"{file_name}.docx"
     try:
         # convert docx to txt 
         MY_TEXT = docx2txt.process(txt_filepath)
         # remove all URLs from text
         MY_TEXT = re.sub(r"http\S+", "", MY_TEXT)
         # create and write text to txt file
-        with open(docx_filepath, "w") as text_file:
+        with open(txt_file, "w") as text_file:
             print(MY_TEXT, file=text_file)   
     ### removing empty lines          
         # Read lines as a list
-        fh = open(docx_filepath, "r")
+        fh = open(txt_file, "r")
         lines = fh.readlines()
         fh.close()
         # Weed out blank lines with filter
         lines = filter(lambda x: not x.isspace(), lines)
         # Write
-        fh = open(docx_filepath, "w")
+        fh = open(txt_file, "w")
         fh.write("".join(lines))
         # should also work instead of joining the list:
         # fh.writelines(lines)
@@ -55,14 +62,14 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
 
             # open and read .txt file
             
-        with open(docx_filepath, 'r') as f:
+        with open(txt_file, 'r') as f:
             the_text = f.read()
             
             # conversion to MP3
             mp3 = gTTS(the_text, lang="en", tld=accent)
 
             # strip filename from filepath
-            file_name = str(os.path.basename(docx_filepath).rsplit('.', 1)[0])
+            file_name = str(os.path.basename(txt_file).rsplit('.', 1)[0])
 
             # save mp3
             mp3_filename = mp3_base_path + '/mp3s/' + file_name 
