@@ -22,7 +22,7 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
 #     new_file_name = docx_filepath.replace('docx', 'txt')
     try:
         MY_TEXT = docx2txt.process(txt_filepath)
-        with open(docx_filepath, "rw") as text_file:
+        with open(docx_filepath, "w") as text_file:
             for line in text_file:
                 if not line.isspace():
                     text_file.write(line)  
