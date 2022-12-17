@@ -29,7 +29,7 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
         with open(txt_file, "w") as text_file:
             print(MY_TEXT, file=text_file)
         new_docx = txt_dirname  + f"{file_name}.docx"
-        os.system(cp txt_filepath new_docx)
+        os.system(f"cp {txt_filepath} {new_docx}")
         #remove original docx
         os.remove(txt_filepath)
     ### removing empty lines          
