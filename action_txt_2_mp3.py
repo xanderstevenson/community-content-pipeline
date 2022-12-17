@@ -7,7 +7,8 @@ from gtts import gTTS
 import ntpath
 import time
 import docx2txt
-import fileinput
+import re
+
 
 # without this, pygame prints a header in the console
 import contextlib
@@ -33,6 +34,8 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
 
         # Weed out blank lines with filter
         lines = filter(lambda x: not x.isspace(), lines)
+        for line in lines:
+            re.sub(r'http\S+', '', line)
 
         # Write
         fh = open(docx_filepath, "w")
