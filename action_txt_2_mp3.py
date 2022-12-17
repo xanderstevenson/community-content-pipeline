@@ -24,6 +24,7 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
 #     new_file_name = docx_filepath.replace('docx', 'txt')
     try:
         MY_TEXT = docx2txt.process(txt_filepath)
+        MY_TEXT = re.sub(r"http\S+", "", MY_TEXT)
         with open(docx_filepath, "w") as text_file:
             print(MY_TEXT, file=text_file)   
             
@@ -51,7 +52,7 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
     except FileNotFoundError:
         print(
             "\n\nERROR\n\nA file named '{}' does not exist. Please try again.\n\n".format(
-                text_file
+                txt_filepath
             )
         )
 
