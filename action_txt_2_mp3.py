@@ -24,8 +24,8 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
         MY_TEXT = docx2txt.process(txt_filepath)
         with open(docx_filepath, "rw") as text_file:
             for line in text_file:
-            if not line.isspace():
-                file.write(line)  
+                if not line.isspace():
+                    text_file.write(line)  
             print(MY_TEXT, file=text_file)   
 
 #         with open(docx_filepath,'rw') as file:
