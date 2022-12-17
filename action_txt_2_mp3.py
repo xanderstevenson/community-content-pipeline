@@ -71,6 +71,11 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
             # strip filename from filepath
             file_name = str(os.path.basename(txt_file).rsplit('.', 1)[0])
 
+            # if the 'mp3s' directory does not exist, create it
+            if not os.path.exists(txt_dirname + '/mp3s/'):
+                os.makedirs(txt_dirname + '/mp3s/')
+                time.sleep(3)
+            
             # save mp3
             mp3_filename = txt_dirname + '/mp3s/' + file_name 
 
@@ -118,10 +123,7 @@ if __name__ == "__main__":
         mp3_base_path = str(mp3_base_path)
         print(f"the mp3_base_path is {mp3_base_path}")
 
-        # if the 'mp3s' directory does not exist, create it
-        if not os.path.exists(mp3_base_path + '/mp3s/'):
-            os.makedirs(mp3_base_path + '/mp3s/')
-            time.sleep(3)
+
 
         #run the program with the file, American accent and path
         create_mp3(each_file, "com", mp3_base_path)
