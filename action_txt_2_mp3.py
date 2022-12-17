@@ -72,7 +72,7 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
             file_name = str(os.path.basename(txt_file).rsplit('.', 1)[0])
 
             # save mp3
-            mp3_filename = mp3_base_path + '/mp3s/' + file_name 
+            mp3_filename = txt_dirname + '/mp3s/' + file_name 
 
             # if mp3 file exists, add a number at the end, but before '.mp3'
 #             for i in range(1,6):
