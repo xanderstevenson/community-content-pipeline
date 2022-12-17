@@ -19,7 +19,7 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
     if not os.path.exists(txt_dirname):
         os.makedirs(txt_dirname)
         time.sleep(1)
-    txt_file = txt_dirname + f"{file_name}.docx"
+    txt_file = txt_dirname + f"{file_name}.txt"
     try:
         # convert docx to txt 
         MY_TEXT = docx2txt.process(txt_filepath)
@@ -28,6 +28,8 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
         # create and write text to txt file
         with open(txt_file, "w") as text_file:
             print(MY_TEXT, file=text_file)   
+        #remove original docx
+        os.remove(txt_filepath)
     ### removing empty lines          
         # Read lines as a list
         fh = open(txt_file, "r")
