@@ -6,10 +6,11 @@
 
 **a)** Provides a template for your blog or article and shows you how to check it for spelling and grammar errors </br>
 **b)** Shows how to create a directory and upload your clog or article .docx  </br>
-**c)** An automated workflow will convert the docx to a txt file and then to an MP3, saving it in an 'mp3s' folder in your new directory. All URLS and empty lines will have been removed, to give your audio a smooth, consistent flow. In the end, you'll have:
-- Your original .docx document
-- A .txt version of your document
-- An MP3, inside of an 'mp3s' sub-folder</br>
+**c)** An automated workflow will create a new directory based on your .docx file name. So, uploading a .docx named "UCCE Script Generation" will create a directory with that same name. Automation will convert the docx to an MP3, saving it in an 'mp3s' folder in your new directory. All URLS and empty lines will have been removed, to give your audio a smooth, consistent flow. In the end, you'll have:
+- A new directory named for your .docx file, inside of which will be:
+  - Your original .docx document
+  - A .txt version of your document
+  - An MP3, inside of an 'mp3s' sub-folder</br>
 
 **d)** Explains the need to compress your MP3 into a ZIP in order to attach it to your article or blog </br>
 **e)** Gives alternate means of generating your MP3, for more control over spoken accent. </br>
