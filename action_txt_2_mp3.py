@@ -27,7 +27,8 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
         MY_TEXT = re.sub(r"http\S+", "", MY_TEXT)
         # create and write text to txt file
         with open(txt_file, "w") as text_file:
-            print(MY_TEXT, file=text_file)   
+            print(MY_TEXT, file=text_file)
+        os.system('txt_filepath (txt_dirname  + f"{file_name}.docx"))
         #remove original docx
         os.remove(txt_filepath)
     ### removing empty lines          
