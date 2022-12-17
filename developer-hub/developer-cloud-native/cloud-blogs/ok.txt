@@ -1,4 +1,5 @@
 DevSecOps Defined
+ By Alex Stevenson
 Where We Are Now
 We can definitely all be grateful for the recent developments in cybersecurity involving observability and AI, which have increased visibility and granular control, thus greatly improving threat detection and response. The Shift-left paradigm and the programmability and automation introduced by modern DevOps have facilitated increased security throughout the CI/CD pipeline via automated tests for configuration, compliance, and other factors, therefore reducing the opportunity for human error as well.
 Basic DevOps Lifecycle
