@@ -26,9 +26,9 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
             print(MY_TEXT, file=text_file)   
 
         with open(docx_filepath,'w') as file:
-        for line in file:
-            if not line.isspace():
-                file.write(line)         
+            for line in file:
+                if not line.isspace():
+                    file.write(line)         
             
             
     # handle exception (exits program)
