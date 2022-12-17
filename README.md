@@ -35,13 +35,8 @@ Once all the edits are finished, find the [directory](https://github.com/xanders
 
 <p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/create-file.png?raw=true" width=900 /></p>
 
-</br>
 
 **Upload your article or blog**
-
-<p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/add-folder-paste-file.png?raw=true" width=800 /></p>
-
-</br>
 
 At the bottom of the page, comment and commit to the 'main' branch. This will start a workflow to create a folder called 'mp3s' in the same directory and place the mp3 there.
 
