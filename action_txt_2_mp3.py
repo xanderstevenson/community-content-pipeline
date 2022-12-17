@@ -15,6 +15,7 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
     docx_filepath = txt_filepath.replace('docx', 'txt')
     
     file_name = str(os.path.basename(docx_filepath).rsplit(".", 1)[0])
+    file_name = file_name.replace(" ", "-")
     txt_dirname = mp3_base_path + f"/{file_name}/"
     if not os.path.exists(txt_dirname):
         os.makedirs(txt_dirname)
