@@ -35,7 +35,9 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
         # Weed out blank lines with filter
         lines = filter(lambda x: not x.isspace(), lines)
         for line in lines:
-            re.sub(r'http\S+', '', line)
+            if "http" in line:
+                del line
+                
 
         # Write
         fh = open(docx_filepath, "w")
