@@ -30,14 +30,14 @@ If changes need to be made, the moderator will make the changes or the writer wi
 ### Step 3
 
 
-Once all the edits are finished, find the [directory](https://github.com/xanderstevenson/community-content-pipeline/tree/main/developer-hub) where your article/blog will be, and create a folder and new file with a .txt extension. 
+Once all the edits are finished, find the [directory](https://github.com/xanderstevenson/community-content-pipeline/tree/main/developer-hub) where your article/blog will be, and create a folder and new file with a .docx extension. 
 
 
 <p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/create-file.png?raw=true" width=900 /></p>
 
 </br>
 
-**PASTE your article or blog inside** Delete all URLs, links and any other long strings or numbers, which will not sound good while read out loud.
+**Upload your article or blog**
 
 <p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/add-folder-paste-file.png?raw=true" width=800 /></p>
 
@@ -46,6 +46,8 @@ Once all the edits are finished, find the [directory](https://github.com/xanders
 At the bottom of the page, comment and commit to the 'main' branch. This will start a workflow to create a folder called 'mp3s' in the same directory and place the mp3 there.
 
 <p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/comment-commit.png?raw=true" width=500 /></p>
+
+It will first convert the .docx to .txt, removing all images, empty lines and URLs. Then it will convert the .txt to an MP3. You will have your orignal .docx, a .txt. file and the MP3, which will be located in a sub-folder it has created, called 'mp3s', in your new directory. 
 
 </br>
 
