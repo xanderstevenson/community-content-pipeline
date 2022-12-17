@@ -10,11 +10,11 @@ import docx2txt
 import re
 
 
-# without this, pygame prints a header in the console
-import contextlib
+# # without this, pygame prints a header in the console
+# import contextlib
 
-with contextlib.redirect_stdout(None):
-    import pygame
+# with contextlib.redirect_stdout(None):
+#     import pygame
 
 # main function
 def create_mp3(txt_filepath, accent, mp3_base_path):
