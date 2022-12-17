@@ -1,0 +1,17 @@
+DevSecOps Defined
+
+ 
+
+Where We Are Now
+
+ 
+
+We can all be grateful for the recent developments in cybersecurity involving observability and AI, which have increased visibility and granular control, thus greatly improving threat detection and response. The Shift-left paradigm and the programmability and automation introduced by modern DevOps have facilitated increased security throughout the CI/CD pipeline via automated tests for configuration, compliance, and other factors, therefore reducing the opportunity for human error as well.
+
+
+
+Basic DevOps Lifecycle
+
+ 
+
+APIs, often thought of as the most vulnerable attack vector into disrupting microservices-based architectures, have seen increased hardening thanks to initiatives like the open-source tool, API Insights, that Cisco has built to help developers improve API quality and security. This is accomplished through validation and scoring of API specifications as well as trending of API quality with changelog and diff comparisons of AP versions to identify breaking
