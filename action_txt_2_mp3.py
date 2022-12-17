@@ -82,7 +82,7 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
                 fg="green",
             )
 
-    # handle exception
+    # handle exception - sometimes the gTTS works and retuned a 200 but it's interpreted as an error
     except Exception:
         pass
     
