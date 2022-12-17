@@ -18,35 +18,30 @@ import re
 
 # main function
 def create_mp3(txt_filepath, accent, mp3_base_path):
+    # rename docx to text
     docx_filepath = txt_filepath.replace('docx', 'txt')
-      # strip filename from filepath
-#     new_file_name = str(os.path.basename(docx_filepath).rsplit('.', 1)[0])
-#     new_file_name = docx_filepath.replace('docx', 'txt')
     try:
+        # convert docx to txt 
         MY_TEXT = docx2txt.process(txt_filepath)
+        # remove all URLs from text
         MY_TEXT = re.sub(r"http\S+", "", MY_TEXT)
+        # create and write text to txt file
         with open(docx_filepath, "w") as text_file:
             print(MY_TEXT, file=text_file)   
-            
+    ### removing empty lines          
         # Read lines as a list
         fh = open(docx_filepath, "r")
         lines = fh.readlines()
         fh.close()
-
         # Weed out blank lines with filter
         lines = filter(lambda x: not x.isspace(), lines)
-#         for line in lines:
-#             if "http" in line:
-#                 del line
-                
-
         # Write
         fh = open(docx_filepath, "w")
         fh.write("".join(lines))
         # should also work instead of joining the list:
         # fh.writelines(lines)
         fh.close()
-            
+    ###        
             
     # handle exception (exits program)
     except FileNotFoundError:
@@ -62,17 +57,13 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
             
         with open(docx_filepath, 'r') as f:
             the_text = f.read()
-
-            # conversion magic
+            
+            # conversion to MP3
             mp3 = gTTS(the_text, lang="en", tld=accent)
 
             # strip filename from filepath
             file_name = str(os.path.basename(docx_filepath).rsplit('.', 1)[0])
 
-            # strip file type extension from name
-    #             file_name = (
-    #                 file_name.replace(".txt", "")
-    #             )
             # save mp3
             mp3_filename = mp3_base_path + '/mp3s/' + file_name 
 
