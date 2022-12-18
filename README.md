@@ -48,6 +48,12 @@ At the bottom of the page, comment and commit to the 'main' branch. This will st
 
 </br>
 
+
+
+### Step 3
+
+
+
 Now, just download the MP3 from the 'mp3s' folder, compress it into a ZIP file, and attach it to your blog or article post on the Cisco Community!
 
 
