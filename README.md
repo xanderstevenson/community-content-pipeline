@@ -5,8 +5,8 @@
 ### What this repository accomplishes
 
 **a)** Provides a template for your blog or article and shows you how to check it for spelling and grammar errors </br>
-**b)** Shows how to create a directory and upload your clog or article .docx  </br>
-**c)** An automated workflow will create a new directory based on your .docx file name. So, uploading a .docx named "UCCE Script Generation" will create a directory with that same name. Automation will convert the docx to an MP3, saving it in an 'mp3s' folder in your new directory. All URLS and empty lines will have been removed, to give your audio a smooth, consistent flow. In the end, you'll have:
+**b)** Shows how to create a directory and upload your blog or article in .docx format </br>
+**c)** An automated workflow will create a new directory based on your .docx file name. So, uploading a .docx named "UCCE Script Generation" will create a directory with the name "UCCE_Script_Generation". Automation will convert the docx to an MP3, saving it in an 'mp3s' folder in your new directory. All URLS and empty lines will have been removed, to give your audio a smooth, consistent flow. In the end, you'll have:
 - A new directory named for your .docx file, inside of which will be:
   - A downloadable copy of you original .docx document
   - A readable .txt version of your document
