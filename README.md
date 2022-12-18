@@ -44,7 +44,7 @@ At the bottom of the page, comment and commit to the 'main' branch. This will st
 
 <p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/comment-commit.png?raw=true" width=500 /></p>
 
-**Details:** It will create your project folder and 'mp3s' sub-folder, if they do not already exist. It will convert the .docx to .txt using the docxtotxt library, removing all images, empty lines and URLs. Then it will convert the .txt to an MP3 using gTTs. If you change your .docx and re-upload, it will overwrite the .txt MP3. During this process, the .docx file you've upploaded is copied into the project folder and the original is deleted from the repo.
+**Details:** It will create your project folder and 'mp3s' sub-folder, if they do not already exist. It will convert the .docx to .txt using the docxtotxt library, removing all images, empty lines and URLs. Then it will convert the .txt to an MP3 using gTTs. If you change your .docx and re-upload, it will overwrite the .txt and MP3. Whenever the process, is run, the .docx file you've upploaded is copied into the project folder and the original is deleted from the repo.
 
 </br>
 
