@@ -40,11 +40,11 @@ Once all the edits are finished, find the [directory](https://github.com/xanders
 **Upload your article or blog in .docx format**
 <p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/create-file.png?raw=true" width=900 /></p>
 
-At the bottom of the page, comment and commit to the 'main' branch. This will start a workflow to create a folder called 'mp3s' in the same directory and place the mp3 there.
+At the bottom of the page, comment and commit to the 'main' branch. This will start a workflow to create a folder with all your files, including a sub-folder called 'mp3s', where it will place the MP3.
 
 <p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/comment-commit.png?raw=true" width=500 /></p>
 
-It will first convert the .docx to .txt, removing all images, empty lines and URLs. Then it will convert the .txt to an MP3. You will have your orignal .docx, a .txt. file and the MP3, which will be located in a sub-folder it has created, called 'mp3s', in your new directory. 
+**Details:** It will create your project folder and 'mp3s' sub-folder, if they do not already exist. It will convert the .docx to .txt using the docxtotxt library, removing all images, empty lines and URLs. Then it will convert the .txt to an MP3 using gTTs. If you change your .docx and re-upload, it will overwrite the .txt MP3. During this process, the .docx file you've upploaded is copied into the project folder and the original is deleted from the repo.
 
 </br>
 
