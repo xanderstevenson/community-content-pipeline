@@ -59,7 +59,6 @@ Now, just download the MP3 from the 'mp3s' folder, compress it into a ZIP file, 
 
 **In order to attach your MP3 to the blog post or article, you will need to compress it into a ZIP file.**
 
-</br>
 
 ### Alternate ways to create your MP3.
 
