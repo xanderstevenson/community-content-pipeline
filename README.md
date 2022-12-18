@@ -15,7 +15,7 @@
 **d)** Explains the need to compress your MP3 into a ZIP in order to attach it to your article or blog </br>
 **e)** Gives alternate means of generating your MP3, for more control over spoken accent. </br>
 
-The final result is a text source of truth in the relative directory in this repo, along with an MP3. This data structure of blogs and articles serves as a record, backup and can eventually serve as an archive for all artivles on the Cisco Community Developer Hub.
+The final result is a text source of truth in the relative directory in this repo, along with an MP3. This data structure of blogs and articles serves as a record, backup and can eventually serve as an archive for artivles on the Cisco Community - Developer Hub.
 
 
 ### Step 1
