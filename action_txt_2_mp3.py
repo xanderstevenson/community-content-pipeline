@@ -1,4 +1,7 @@
-## This is the version of txt-2-mp3.py to be run in GitHub actions
+#!/usr/bin/env python3
+"""
+This is the version of txt-2-mp3.py to be run in GitHub actions
+"""
 
 import sys
 import os
