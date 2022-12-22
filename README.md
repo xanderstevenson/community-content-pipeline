@@ -48,6 +48,8 @@ At the bottom of the page, comment and commit to the 'main' branch. This will st
 
 **Details:** It will create your project folder and 'mp3s' sub-folder, if they do not already exist. It will convert the .docx to .txt using the docxtotxt library, removing all images, empty lines and URLs. Then it will convert the .txt to an MP3 using gTTs. If you change your .docx and re-upload, it will overwrite the .txt and MP3. Whenever the process, is run, the .docx file you've uploaded is copied into the project folder and the original is deleted from the repo.
 
+* It's not a bad idea to scan the .txt file and/or listen to the MP3 to make sure the final product is satisfactory.
+
 
 ### Step 4
 
