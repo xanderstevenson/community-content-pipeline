@@ -23,6 +23,10 @@ def create_mp3(docx_filepath, accent, mp3_base_path):
     if not os.path.exists(txt_dirname):
         os.makedirs(txt_dirname)
         time.sleep(1)
+    # cp docx file into new dir
+    new_docx = txt_dirname  + f"{file_name}.docx"
+    os.system(f"cp {docx_filepath} {new_docx}")
+    # make name for new txt file
     txt_file = txt_dirname + f"{file_name}.txt"
     try:
         # convert docx to txt 
@@ -32,8 +36,6 @@ def create_mp3(docx_filepath, accent, mp3_base_path):
         # create and write text to txt file
         with open(txt_file, "w") as text_file:
             print(MY_TEXT, file=text_file)
-        new_docx = txt_dirname  + f"{file_name}.docx"
-        os.system(f"cp {docx_filepath} {new_docx}")
         #remove original docx
         os.remove(docx_filepath)
     ### removing empty lines          
