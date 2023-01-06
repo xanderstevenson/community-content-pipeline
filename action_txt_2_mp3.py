@@ -13,11 +13,11 @@ import docx2txt
 import re
 
 # main function
-def create_mp3(txt_filepath, accent, mp3_base_path):
+def create_mp3(docx_filepath, accent, mp3_base_path):
     # rename docx to text
-    docx_filepath = txt_filepath.replace('docx', 'txt')
+    txt_filepath = docx_filepath.replace('docx', 'txt')
     
-    file_name = str(os.path.basename(docx_filepath).rsplit(".", 1)[0])
+    file_name = str(os.path.basename(txt_filepath).rsplit(".", 1)[0])
     file_name = file_name.replace(" ", "-")
     txt_dirname = mp3_base_path + f"/{file_name}/"
     if not os.path.exists(txt_dirname):
@@ -26,16 +26,16 @@ def create_mp3(txt_filepath, accent, mp3_base_path):
     txt_file = txt_dirname + f"{file_name}.txt"
     try:
         # convert docx to txt 
-        MY_TEXT = docx2txt.process(txt_filepath)
+        MY_TEXT = docx2txt.process(docx_filepath)
         # remove all URLs from text
         MY_TEXT = re.sub(r"http\S+", "", MY_TEXT)
         # create and write text to txt file
         with open(txt_file, "w") as text_file:
             print(MY_TEXT, file=text_file)
         new_docx = txt_dirname  + f"{file_name}.docx"
-        os.system(f"cp {txt_filepath} {new_docx}")
+        os.system(f"cp {docx_filepath} {new_docx}")
         #remove original docx
-        os.remove(txt_filepath)
+        os.remove(docx_filepath)
     ### removing empty lines          
         # Read lines as a list
         fh = open(txt_file, "r")
