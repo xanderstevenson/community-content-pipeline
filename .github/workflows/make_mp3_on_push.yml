@@ -1,7 +1,7 @@
-name: Create MP3 from TXT on Push to a certain directory
+name: Create MP3 from .docx or .txt upon Push to a developer-hub directory
 on:
   push:
-    # only runs when files in this path are changed, and they must end in .txt
+    # only runs when files in this path are changed, and they must end in .docx or .txt 
     paths:
       - developer-hub/**.txt
       - developer-hub/**.docx
