@@ -100,12 +100,12 @@ def create_mp3(docx_filepath, accent, mp3_base_path):
 
 
 if __name__ == "__main__":
-
     #import environmental variable from the GitHub actions workflow
     # get the file that changed or was added and strip the brackets and quotes
     the_modified_filename = os.getenv('MODIFIED_FILE')
     the_modified_filename = the_modified_filename.replace('[','').replace(']','').replace('"','')
-    the_added_filename = (os.getenv('ADDED_FILE').replace('[','').replace(']','').replace('"',''))
+    the_added_filename = os.getenv('ADDED_FILE')
+    the_added_filename = the_added_filename.replace('[','').replace(']','').replace('"',''))
 
     #compare to see if a file was added or modified, keep the one which is not './'
     if len(the_modified_filename) > len(the_added_filename):
