@@ -105,7 +105,7 @@ if __name__ == "__main__":
     the_modified_filename = os.getenv('MODIFIED_FILE')
     the_modified_filename = the_modified_filename.replace('[','').replace(']','').replace('"','')
     the_added_filename = os.getenv('ADDED_FILE')
-    the_added_filename = the_added_filename.replace('[','').replace(']','').replace('"',''))
+    the_added_filename = the_added_filename.replace('[','').replace(']','').replace('"','')
 
     #compare to see if a file was added or modified, keep the one which is not './'
     if len(the_modified_filename) > len(the_added_filename):
