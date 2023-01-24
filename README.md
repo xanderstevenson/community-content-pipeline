@@ -14,7 +14,7 @@ These two things are:
 2) After running a script using those variables, automatically Commit and Push back into the GitHub repository.
 
 
-
+</br>
 ### What this repository accomplishes
 
 **A)** Provides a template for your blog or article and shows you how to check it for spelling and grammar errors </br>
