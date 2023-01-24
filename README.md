@@ -17,7 +17,9 @@ These two things are:
 ### What this repository accomplishes
 
 **A)** Provides a template for your blog or article and shows you how to check it for spelling and grammar errors </br>
+
 **B)** Shows how to create a directory and upload your blog or article in .docx format </br>
+
 **C)** An automated workflow will create a new project folder based on your .docx file name. So, uploading a .docx named "UCCE Script Generation" will create a folder with the name "UCCE_Script_Generation". Automation will convert the .docx to an MP3, saving it in an 'mp3s' sub-folder in your new project. All URLS and empty lines will have been removed, to give your audio a smooth, consistent flow. In the end, you'll have:
 
 - A new folder, named for your .docx file, inside of which will be:
@@ -26,6 +28,7 @@ These two things are:
   - A downloadable MP3, inside of an 'mp3s' sub-folder</br>
 
 **D)** Explains the need to compress your MP3 into a ZIP in order to attach it to your article or blog </br>
+
 **E)** Gives alternate means of generating your MP3, for more control over spoken accent. </br>
 
 The final result is a text source of truth (.docx, .txt and MP3) for your blog or article in the relative directory in this repo. This data structure of blog and article neta data serves as a record, backup and can eventually serve as an archive for published on the Cisco Community - Developer Hub.
