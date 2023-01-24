@@ -1,6 +1,19 @@
 <p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/community-content-pipeline-teal-transparent.png?raw=true" width=300 /></p>
 <h2 align="center">A Source of Truth for  the Cisco Community Engagement, with creation and storage of Text and MP3 files.</h1>
 
+### Inspiration and Uniqueness
+
+The idea for this project came from our team’s desire to attach audio versions of the blogs and articles we post to the Cisco Community. This will enable those who are visually impaired and give everyone else the option to listen instead of reading. I also wanted to have a place to store all my blog and article documents, other than a folder on my desktop. This source of truth (SOT) of text templates and their associated audio MP3s will also serve as an archive for future use of this knowledge.
+
+The continuous integration (CI) pipeline which I’m about to share is worth sharing because it accomplishes two things in particular, which you may have assumed GitHub Actions would do out of the box, but for which I had to do some research to find and implement a niche tool. 
+
+These two things are: 
+
+1) Detect exactly which file(s) have changed in a Push to GitHub and assign the properties of those files to variables. 
+
+2) After running a script using those variables, automatically Commit and Push back into the GitHub repository.
+![image](https://user-images.githubusercontent.com/27918923/214330202-2b32ba8d-6d29-4207-9b24-c5c08aebf60f.png)
+
 
 ### What this repository accomplishes
 
