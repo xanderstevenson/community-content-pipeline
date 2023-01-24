@@ -1,7 +1,7 @@
 <p align="center"><img src="https://github.com/xanderstevenson/community-content-pipeline/blob/main/media/community-content-pipeline-teal-transparent.png?raw=true" width=300 /></p>
-<h2 align="center">A Source of Truth for  the Cisco Community Engagement, with creation and storage of Text and MP3 files.</h1>
+<h2 align="center">A Source of Truth for  the Cisco Community Engagement, with creation and storage of Text and MP3 files.</h2>
 
-### Inspiration and Uniqueness
+<h3 align="center">Inspiration and Uniqueness</h3>
 
 The idea for this project came from our team’s desire to attach audio versions of the blogs and articles we post to the Cisco Community. This will enable those who are visually impaired and give everyone else the option to listen instead of reading. I also wanted to have a place to store all my blog and article documents, other than a folder on my desktop. This source of truth (SOT) of text templates and their associated audio MP3s will also serve as an archive for future use of this knowledge.
 
