@@ -16,7 +16,7 @@ These two things are:
 
 <br>
 
-### What this repository accomplishes
+<h3 align="center">What this repository accomplishes</h3>
 
 **A)** Provides a template for your blog or article and shows you how to check it for spelling and grammar errors </br>
 
