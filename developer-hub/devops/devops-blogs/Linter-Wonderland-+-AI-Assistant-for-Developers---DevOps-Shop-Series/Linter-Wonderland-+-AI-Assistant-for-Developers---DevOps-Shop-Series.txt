@@ -1,0 +1,8 @@
+The third edition of the 'DevOps Shop' series, 'Linter Wonderland + AI Assistant for Developers', is live now!
+Linting is a simple, yet effective, way to test and clean up your code during the build phase of continuous integration. If you are currently skipping linting, you could be living in a ‘linter winter’ which could be making your code, at best - inefficient, and at worst - a security liability.
+In this video, you will see tried, tested and true ‘lint hints’ and how automation can make linting a relatively painless process. You’ll also learn about various Python linters, and how the benefits of linting for security and automation should have you ‘sprinting for linting’.
+Last, but not least, we will introduce and demonstrate Tabnine, the powerful AI assistant for developers you can use in your IDE, on your laptop, on a server behind your firewall, or in the cloud. Tabnine is powered by machine learning models pre-trained on open-source code with permissive licenses and it features whole and full-function code completion. Privacy is paramount with Tabnine, so you code will remain private...and it offers a FREE plan too!
+Check it out now!
+Previous editions of DevOps Shop
+1. Intro to Cisco Modeling Labs
+2. 9 Easy-to-Use Python Modules for DevOps
