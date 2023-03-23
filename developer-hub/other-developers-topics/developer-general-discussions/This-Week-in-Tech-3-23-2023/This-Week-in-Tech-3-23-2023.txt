@@ -1,0 +1,31 @@
+This Week in Tech: March 23, 2023
+This week in tech, we’re taking a look at drones and the impact they are having in the workforce, at home, and beyond.
+Ikea Places Stock in Autonomous Drone Idea
+The Swedish furniture retailer Ikea (I would say ‘manufacturer’ but for some reason they make us put our furniture together ourselves ; ) has reported this week that they have a fleet of 100 autonomous drones counting stock in warehouses during non-operational hours in around 15 locations in Europe.
+The aim of these drones is to improve inventory accuracy and save the employees from counting the stock manually. The drones launch from charging stations and utilize images, videos, and 3D scans. They can also help employees locate missing or misplaced items. I’m currently looking into buying one myself to help me find my keys and rebel socks.
+The consensus regarding these drones at Ikea appears to be mixed; of the two comments left on the source article, one stated “This will be super useful” while the other exclaimed “Thanks, I hate it”.
+Drone Formation Makes Guinness World Record Attempt at SXSW
+Last week, at the famous SXSW conference and festival in Austin, TX, over 600 drones lit up the sky for over an hour in an amazing display that may have set a world record for longest drone show. The light and technology show in the sky was capped off by a formation of a QR code, which, when scanned, gave the viewers a special surprise.
+One pilot controlled all drones and the preparation required at least 50 hours of programming from their team of 3D animators as well as planning and testing with the pilot.
+<iframe width="640" height="360" style="border:1px solid #e6e6e6" src=" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+Some of the Other Players in the Aerial Drone Sphere
+Alphabet
+Google-parent Alphabet’s Wing service, working in partnership with Walgreens and FedEx, delivers small packages (2-3 pounds) to customers’ doorsteps using all-electric drones.
+Amazon 
+Amazon, being the largest e-commerce company in the known universe, is in prime position to dominate the drone wars. Amazon Prime Air delivery program aims to deliver packages of under 5 pounds in under 3 minutes using GPS.
+See this article for more details about Amazon’s drone progression
+Dominos
+The pizza giant delivered their first pizza-by-drone way back in 2016 (talk about cutting edge ; ) although it took a pilot, a team of drone experts and GPS to get it done. No word if customers can keep the drone if delivered in over 30 minutes. Mama mia!
+UPS
+Another ground-breaker, or should we say ‘first-in-flight’, was UPS, who received Federal Aviation Administration (FAA) approval in 2019 to become the first drone service to operate as a commercial airline. It is reported to have complete autonomy over the size and scope of its operations, although it can only operate in rural and suburban regions thus far. 
+Walmart
+Walmart has maneuvered their way into a prominent position in the aerial drone delivery world. Walmart made 6,000 drone deliveries in December 2022, the first month it began offering the service. Sam Walton would be proud! 
+Other Businesses
+Other businesses taking advantage of drones are social media influencers, who take stunning panoramic videos with them, and realtors, who use them to show properties to home buyers/renters in real time, including the roof and surrounding area.
+Call to Action
+What are some ways you see drones being used in the near and far future?
+“Throw me a drone!”
+Sources
+Ikea adds stock-counting drones to more of its stores, The Verge
+Amazon, UPS, Domino's & the Future of Drone Delivery Services, Insider Intelligence
+600 drones light up the skies at SXSW 2023, KVUE-ABC, Austin, TX
